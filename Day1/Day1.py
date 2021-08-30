@@ -21,3 +21,5 @@ myFullName = myFirstName + " " + myLastName
 print("My full name is " + myFullName)
 print("Below is the length of your full name\n")
 print(len(myFullName))
+
+# Variable Naming
