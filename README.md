@@ -1,6 +1,6 @@
 # 100DaysOfCodeInPython
 
 ## Day 1
-Printing, Commenting, Debugging, String Manipulation and Variables.
-Project - Band Name Generator
-Errors Encountered - Syntax Error, Indentation Error
+Printing , Commenting, Debugging, String Manipulation and Variables.<br>
+** Project ** - Band Name Generator<br>
+** Errors Encountered ** - Syntax Error, Indentation Error<br>
