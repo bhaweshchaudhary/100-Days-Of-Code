@@ -39,3 +39,18 @@ new_string_length = str(length)
 print("Your name has " + new_string_length + " character.")
 
 # Mathematical operations
+
+# operation priority
+
+# PEMDAS
+
+# parenthesis ()
+# Exponents **
+# Multiplication *
+# Division /
+# Addition +
+# Substraction -
+
+# multiplication, division & addition, subtraction are equally important.
+
+print(3*3+3/3-3)
