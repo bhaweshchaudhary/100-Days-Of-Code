@@ -6,5 +6,5 @@ I have learned Printing , Commenting, Debugging, String Manipulation and Variabl
 **Errors Encountered** - Syntax Error, Indentation Error<br>
 
 ## Day 2
-Data types, Numbers, Operations, Type conversion, f-Strings
+Data types, Numbers, Operations, Type conversion, f-Strings<br>
 **Project** - Tip Calculator<br>
