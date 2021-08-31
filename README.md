@@ -1,4 +1,4 @@
-# 100DaysOfCodeInPython
+# 100 Days Of Code In Python
 
 ## Day 1
 I have learned Printing , Commenting, Debugging, String Manipulation and Variables.<br>
