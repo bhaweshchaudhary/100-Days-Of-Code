@@ -23,3 +23,6 @@ print("Below is the length of your full name\n")
 print(len(myFullName))
 
 # Variable Naming
+username = "callmebhawesh"
+facebook_username = "callmebhawesh"
+email = "bhawesh@nestnepal.com"
