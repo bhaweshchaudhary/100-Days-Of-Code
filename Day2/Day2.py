@@ -53,4 +53,24 @@ print("Your name has " + new_string_length + " character.")
 
 # multiplication, division & addition, subtraction are equally important.
 
-print(3*3+3/3-3)
+print(3*3+3/3-3) 
+
+# Number manipulation
+
+print(int(8/3))
+print(round(8/3, 3))
+
+result = 4/2
+result /= 2
+print(result)
+
+score = 0
+score += 1
+print(score)
+
+# fstring
+
+height = 2
+isWinning = True
+
+print(f"Your height is {height} and your score is {score}")
