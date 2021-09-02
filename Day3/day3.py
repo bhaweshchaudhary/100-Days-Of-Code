@@ -34,3 +34,6 @@ elif taste_scale_int >= 6:
     print(f"That's awesome and we promise to increase the quality and taste of {food_name} even better.")
 else:
     print(f"We need more detail to calculate the taste of {food_name}")
+
+
+# to follow nested if else statement though i've already done above.
