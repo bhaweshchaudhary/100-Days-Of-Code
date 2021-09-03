@@ -56,6 +56,6 @@ Leap year.
 Not leap year.
 ```
 
+e.g. When you hit **run**, this is what should happen:  
 
-
-[https://repl.it/@appbrewery/day-3-3-test-your-code](https://repl.it/@appbrewery/day-3-3-test-your-code)
+ ![](https://cdn.fs.teachablecdn.com/AthNqKoSm6JD4sMom2X2)
