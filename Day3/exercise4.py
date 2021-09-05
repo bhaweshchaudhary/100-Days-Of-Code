@@ -16,6 +16,6 @@ if height >= 120:
     wants_photo = input("Do you want to take photos? Y or N\n").upper()
     if wants_photo == "Y":
         bill = bill + 3
-    print(f"Your final price is {bill}\n")
+    print(f"Your final price is ${bill}\n")
 else:
     print("Sorry you have to grow taller before you ride roller coaster.")
