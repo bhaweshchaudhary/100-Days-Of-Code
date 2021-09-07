@@ -36,5 +36,6 @@ else:
     print(f"We need more detail to calculate the taste of {food_name}")
 
 # Multiple if statement
+# check exercise 5
 
-# write a program to calculate the ticket bill
+# logical operators
