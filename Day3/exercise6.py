@@ -25,6 +25,11 @@ e = small_name.count("e")
 
 love = l + o + v + e
 
-true_love = str(true) + str(love)
+true_love = int(str(true) + str(love))
 
-print(true_love)
+if true_love < 10 or true_love > 90:
+    print(f"Your score is {true_love}, you go together like coke and mentos.")
+elif true_love >= 40 and true_love <= 50:
+    print(f"Your score is {true_love}, you are alright together.")
+else:
+    print(f"Your score is {true_love}.")
