@@ -23,4 +23,25 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-#https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload
+left_or_right = input("Your Ex is on right and your crush is on left, where'd you want to go?\n").lower()
+
+if left_or_right == "right":
+    print("Shit man not again, the game is over.")
+elif left_or_right == "left":
+    swim_or_wait = input("There's a river infront of you, do you want to swim or you want to wait?\n").lower()
+    if swim_or_wait == "swim":
+        print("Attacked by trout, you game is now over.")
+    elif swim_or_wait == "wait":
+        door = input("Which is your favorite door, Red or Blue or Yellow?\n").lower()
+        if door == "red":
+            print("You've been burned by a fire, you game is over now.")
+        elif door == "blue":
+            print("Eaten by beasts. Game over.")
+        elif door == "yellow":
+            print("You win!")
+        else:
+            print("Your game is over.")
+    else:
+        print("Attacked by trout, you game is now over.")
+else:
+    print("Your game is over.")
