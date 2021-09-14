@@ -1,4 +1,7 @@
 import random
+import my_module
 
 random_numbers = random.randint(100, 200)
-print(random_numbers)
+
+pi = my_module.pi
+print(pi)
