@@ -12,3 +12,5 @@ random_float = random.random()
 # we get floating numbers from 0.0 to 5.0 but not including 5.0
 new_random = random_float * 5
 print(new_random)
+
+# understanding the offset and appending item to the list 4-4
