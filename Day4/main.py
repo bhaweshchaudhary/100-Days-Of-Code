@@ -21,4 +21,5 @@ language = [
 language.append(".net") # add item to the end of the list
 language.extend(["reactjs", "angularjs", "django"]) # add this new list to the existing list
 language.insert(len(language), "go") # this will add the new item at the given position.
+# for more visit: https://docs.python.org/3/tutorial/datastructures.html
 print(language)
