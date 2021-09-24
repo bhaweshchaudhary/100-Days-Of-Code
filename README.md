@@ -17,4 +17,4 @@ I have to learn Randomization and Python List.<br>
 **Project** - Rock Paper Scissor Game<br>
 
 ### Errors
-Type Error, Syntax Error, Indentation Error
+Type Error, Syntax Error, Indentation Error, Index Error

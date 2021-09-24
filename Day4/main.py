@@ -23,3 +23,9 @@ language.extend(["reactjs", "angularjs", "django"]) # add this new list to the e
 language.insert(len(language), "go") # this will add the new item at the given position.
 # for more visit: https://docs.python.org/3/tutorial/datastructures.html
 print(language)
+
+# Index errors and working with nested list
+length_of_language = len(language)
+print(length_of_language) # 8 items and index is 7
+print(language[9]) # index error as i am printing way beyond the length.
+
