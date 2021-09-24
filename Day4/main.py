@@ -14,3 +14,10 @@ new_random = random_float * 5
 print(new_random)
 
 # understanding the offset and appending item to the list 4-4
+
+language = [
+    "python", "c", "javascript"
+]
+language.append(".net") # add item to the end of the list
+language.extend(["reactjs", "angularjs", "django"]) # add this new list to the existing list
+print(language)
