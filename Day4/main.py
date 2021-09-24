@@ -27,5 +27,12 @@ print(language)
 # Index errors and working with nested list
 length_of_language = len(language)
 print(length_of_language) # 8 items and index is 7
-print(language[9]) # index error as i am printing way beyond the length.
+# print(language[9]) # index error as i am printing way beyond the length.
+
+# Nested list
+fruits = ["Apple", "Banana", "Mango"]
+Vegetables = ["Potato", "Onion", "Chilli"]
+
+fruits_and_vegetables = [fruits, Vegetables]
+print(fruits_and_vegetables)
 
