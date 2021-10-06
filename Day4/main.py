@@ -36,5 +36,5 @@ Vegetables = ["Potato", "Onion", "Chilli"]
 fruits_and_vegetables = [fruits, Vegetables]
 print(fruits_and_vegetables)
 
-# complete tresure map exercise
+# complete rock paper scissor exercise
 
