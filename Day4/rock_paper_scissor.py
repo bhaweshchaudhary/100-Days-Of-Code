@@ -27,27 +27,34 @@ scissors = '''
 ---.__(___)
 '''
 
-user_choice = input("Choose between rock (press 0), paper (press 1), and scissor(press 2)\n")
+game_images = [rock, paper, scissors]
+
+user_choice = int(input("Choose between rock (press 0), paper (press 1), and scissor(press 2)\n"))
+print("You chose:\n")
+print(game_images[int(user_choice)])
 
 computer_choice = random.randint(0,2)
+print("Computer chose:\n")
+print(game_images[computer_choice])
+
 
 if (user_choice == 0 and computer_choice == 1):
-    print("You loose and computer won")
+    print("You loose")
 
 if (user_choice == 1 and computer_choice == 2):
-    print("You loose and computer won")
+    print("You loose")
 
 if (user_choice == 2 and computer_choice == 0):
-    print("You loose and computer won")
+    print("You loose")
 
 if (user_choice == 1 and computer_choice == 0):
-    print("You won and computer loose")
+    print("You won")
 
 if (user_choice == 2 and computer_choice == 1):
-    print("You won and computer loose")
+    print("You won")
 
 if (user_choice == 0 and computer_choice == 2):
-    print("You won and computer loose")
+    print("You won")
 
 if (user_choice == 0 and computer_choice == 0):
     print("It's a draw")
@@ -58,5 +65,5 @@ if (user_choice == 1 and computer_choice == 1):
 if (user_choice == 2 and computer_choice == 2):
     print("It's a draw")
 
-if(user_choice < 0 or user_choice >= 3):
+if (int(user_choice) < 0 or int(user_choice) >= 3):
     print("You loose because you typed an invalid number.")
