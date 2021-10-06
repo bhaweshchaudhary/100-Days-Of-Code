@@ -29,13 +29,18 @@ scissors = '''
 
 game_images = [rock, paper, scissors]
 
-user_choice = int(input("Choose between rock (press 0), paper (press 1), and scissor(press 2)\n"))
-print("You chose:\n")
-print(game_images[int(user_choice)])
+# if (int(user_choice) < 0 or int(user_choice) >= 3):
 
-computer_choice = random.randint(0,2)
-print("Computer chose:\n")
-print(game_images[computer_choice])
+try:
+
+    user_choice = int(input("Choose between rock (press 0), paper (press 1), and scissor(press 2)\n"))
+    # print("You chose:\n")
+    print(f"You chose \n {game_images[int(user_choice)]}")
+
+    computer_choice = random.randint(0,2)
+    print(f"Computer chose \n {game_images[computer_choice]}")
+except:
+    print("Please enter a valid number.")
 
 
 if (user_choice == 0 and computer_choice == 1):
@@ -64,6 +69,3 @@ if (user_choice == 1 and computer_choice == 1):
 
 if (user_choice == 2 and computer_choice == 2):
     print("It's a draw")
-
-if (int(user_choice) < 0 or int(user_choice) >= 3):
-    print("You loose because you typed an invalid number.")
