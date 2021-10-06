@@ -27,20 +27,33 @@ scissors = '''
 ---.__(___)
 '''
 
-user = input("Choose between rock, paper, and scissor\n")
+user_choice = input("Choose between rock (press 0), paper (press 1), and scissor(press 2)\n")
 
-options = [rock, paper, scissors]
-computer = random.choice(options)
+computer_choice = random.randint(0,2)
 
-if (user == rock and computer == scissors):
-    print("You've won")
-else if (user == scissors and computer == rock):
-    print("You loose")
-else if (user == rock and computer == paper):
-    print("""""""""""""")
+if (user_choice == 0 and computer_choice == 1):
+    print("You loose and computer won")
 
+if (user_choice == 1 and computer_choice == 2):
+    print("You loose and computer won")
 
+if (user_choice == 2 and computer_choice == 0):
+    print("You loose and computer won")
 
+if (user_choice == 1 and computer_choice == 0):
+    print("You won and computer loose")
 
-print(computer)
-# rule: rock wins scissor, scissor wins paper and paper wins rocks
+if (user_choice == 2 and computer_choice == 1):
+    print("You won and computer loose")
+
+if (user_choice == 0 and computer_choice == 2):
+    print("You won and computer loose")
+
+if (user_choice == 0 and computer_choice == 0):
+    print("It's a draw")
+
+if (user_choice == 1 and computer_choice == 1):
+    print("It's a draw")
+
+if (user_choice == 2 and computer_choice == 2):
+    print("It's a draw")
