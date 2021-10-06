@@ -40,6 +40,7 @@ try:
     computer_choice = random.randint(0,2)
     print(f"Computer chose \n {game_images[computer_choice]}")
 except:
+    
     print("Please enter a valid number.")
 
 
