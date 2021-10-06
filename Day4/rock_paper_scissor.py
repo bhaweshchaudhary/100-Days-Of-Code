@@ -57,3 +57,6 @@ if (user_choice == 1 and computer_choice == 1):
 
 if (user_choice == 2 and computer_choice == 2):
     print("It's a draw")
+
+if(user_choice < 0 or user_choice >= 3):
+    print("You loose because you typed an invalid number.")
