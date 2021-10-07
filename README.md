@@ -16,5 +16,12 @@ I have learned Conditional Statements, Logical Operators, Code Blocks, & Scope<b
 I have to learn Randomization and Python List.<br>
 **Project** - Rock Paper Scissor Game<br>
 
+## Day 5
+For Loops, Range, and Code Blocks.<br>
+**Projects** - Python password generator <br>
+
 ### Errors
 Type Error, Syntax Error, Indentation Error, Index Error
+
+## Note to myself
+Debug is needed in rock, paper and scissor game. Inside Day 4
