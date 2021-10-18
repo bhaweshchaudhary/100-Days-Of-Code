@@ -1,0 +1,1 @@
+Participating in hacktoberfest is easy. Just create a python file/folder of your github username inside Projects directory and work on any project you want.
