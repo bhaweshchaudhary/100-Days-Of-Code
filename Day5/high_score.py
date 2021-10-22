@@ -7,6 +7,8 @@ print(student_scores)
 
 #Write your code below this row 👇
 
-
-
-
+heighest_score = 0
+for score in student_scores:
+  if score > heighest_score:
+    heighest_score = score
+print(f"\nThe height score is {heighest_score}.")
