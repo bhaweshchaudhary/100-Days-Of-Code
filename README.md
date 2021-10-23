@@ -20,8 +20,12 @@ I have to learn Randomization and Python List.<br>
 For Loops, Range, and Code Blocks.<br>
 **Projects** - Python password generator <br>
 
+## Day 6
+Function, Code Blocks, and While Loops.<br>
+**Projects** - Escaping the maze <br>
+
 ### Errors
-Type Error, Syntax Error, Indentation Error, Index Error
+Type Error, Syntax Error, Indentation Error, Index Error, Value Error
 
 ## Note to myself
 Debug is needed in rock, paper and scissor game. Inside Day 4
