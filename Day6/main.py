@@ -5,4 +5,7 @@ def my_function():
     
 my_function()
 
-#note: follow day 6 from beginning
+# while loop 
+# something_is_true = 5
+# while something_is_true > 3:
+# run this code repeatedly
