@@ -24,6 +24,9 @@ For Loops, Range, and Code Blocks.<br>
 Function, Code Blocks, and While Loops.<br>
 **Projects** - Escaping the maze <br>
 
+## Day 7
+**Projects** - Hangman <br>
+
 ### Errors
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error
 
