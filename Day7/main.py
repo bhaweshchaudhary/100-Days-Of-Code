@@ -3,6 +3,8 @@ word_list = ["ardvark", "baboon", "camel"]
 # 1st - Randomly chose word from word_list and assign it to the variable called chosen_word
 import random
 
+lives = 6
+
 stages = ['''
   +---+
   |   |
@@ -80,6 +82,14 @@ while not end_of_game:
             listing[position] = letter
     print(listing)
 
+    if guess not in chosen_word:
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You loose")
+
     if "_" not in listing:
         end_of_game = True
         print("You win")
+    
+    print(stages[lives])
