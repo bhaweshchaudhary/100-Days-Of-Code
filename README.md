@@ -27,8 +27,13 @@ Function, Code Blocks, and While Loops.<br>
 ## Day 7
 **Projects** - Hangman <br>
 
+## Day 8
+Function with input, Arguments and Parameters<br>
+**Projects** - Ceaser Cipher<br>
+
 ### Errors
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error
 
 ## Note to myself
 Debug is needed in rock, paper and scissor game. Inside Day 4
+Follow hangman last part to complete the game and give it a final touch
