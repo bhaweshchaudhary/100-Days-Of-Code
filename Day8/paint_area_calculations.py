@@ -1,9 +1,9 @@
 #Write your code below this line 👇
-
+import math
 
 def paint_calc(height, width, cover):
-    calc = (height*width)/cover
-    print(calc)
+    calc = math.ceil((height*width)/cover)
+    print(f"You'll need {calc} number of cans to paint the wall.")
 
 
 
