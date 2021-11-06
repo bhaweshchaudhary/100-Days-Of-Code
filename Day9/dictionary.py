@@ -25,5 +25,6 @@ programming_dictionary["Bug"] = "This makes program vulnerable."
 # print(programming_dictionary["Bug"])
 
 # Loop through dictionary
-for thing in programming_dictionary:
-    print(thing)
+for key in programming_dictionary:
+    print(key)
+    print(programming_dictionary[key])
