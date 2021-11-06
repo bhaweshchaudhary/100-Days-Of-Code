@@ -36,7 +36,7 @@ Dictionaries and Nesting <br>
 **Projects** - Silent Auction Program<br>
 
 ### Errors
-Type Error, Syntax Error, Indentation Error, Index Error, Value Error
+Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error
 
 ## Note to myself
 Debug is needed in rock, paper and scissor game. Inside Day 4
