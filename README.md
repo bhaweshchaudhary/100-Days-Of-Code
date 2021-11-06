@@ -31,6 +31,10 @@ Function, Code Blocks, and While Loops.<br>
 Function with input, Arguments and Parameters<br>
 **Projects** - Ceaser Cipher<br>
 
+## Day 9
+Dictionaries and Nesting <br>
+**Projects** - Silent Auction Program<br>
+
 ### Errors
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error
 
