@@ -46,3 +46,4 @@ Follow hangman last part to complete the game and give it a final touch
 | --- | --- | -- |
 | 1 | Printing , Commenting, Debugging, String Manipulation and Variables | Band Name Generator |
 | 2 | Data types, Numbers, Operations, Type conversion, f-Strings | Tip Calculator |
+| 3 | Conditional Statements, Logical Operators, Code Blocks, & Scope | Console Based Tresure Island Game |
