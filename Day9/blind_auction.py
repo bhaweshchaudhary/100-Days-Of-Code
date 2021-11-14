@@ -1,18 +1,7 @@
 from art import logo
-import os
-from time import sleep
+from clear import clear_screen
 
 print(logo)
-
-def clear_screen():
-    # for macos and linux
-    if os.name == 'posix':
-        _ = os.system('clear')
-    # for windows
-    else:
-        _ = os.system('cls')
-
-
 
 bids = {}
 bidding_finished = False
