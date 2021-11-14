@@ -43,3 +43,5 @@ Debug is needed in rock, paper and scissor game. Inside Day 4
 Follow hangman last part to complete the game and give it a final touch
 
 
+<th>Day Count</th> <th>Topics Covered</th> <th>Projects Done</th>
+<td>1</td> Printing , Commenting, Debugging, String Manipulation and Variables <td> <td>Band Name Generator</td>
