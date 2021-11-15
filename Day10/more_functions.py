@@ -7,8 +7,8 @@
 # my_function()
 
 def format_name(f_name, l_name):
-    full_name = f_name + " " + l_name
-    title_case_full_name = full_name.title()
-    print(title_case_full_name)
+    formatted_f_name = f_name.title()
+    formatted_l_name = l_name.title()
+    return f"{formatted_f_name} {formatted_l_name}"
 
-format_name(f_name=input("What's your first name?\n"), l_name=input("What's your last name?\n"))
+print(format_name(f_name=input("What's your first name?\n"), l_name=input("What's your last name?\n")))
