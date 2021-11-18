@@ -12,7 +12,7 @@
 | 8 | Function with input, Arguments and Parameters | Ceaser Cipher |
 | 9 | Dictionaries and Nesting | Blind Auction |
 | **10** | Functions with outputs | Calculators |
-| 11 | N/A | N/A |
+| 11 | **Projects Day** | Blackjack capstone |
 | 12 | N/A | N/A |
 | 13 | N/A | N/A |
 | 14 | N/A | N/A |
