@@ -27,7 +27,7 @@ for _ in range(2):
 user_score = calculate_score(user_cards)
 computer_score = calculate_score(computer_cards)
 print(f"Your cards: {user_cards}, Current_Score= {user_score}")
-print(f"Computer's first card: {computer_score")
+print(f"Computer's first card: {computer_score}")
 
 if user_score==0 or computer_score==0 or user_score>21:
     isGameOver = True
