@@ -104,7 +104,7 @@
 | 100 | N/A | N/A |
 
 ### Errors
-Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error
+Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error
 
 ## Note to myself
 Debug is needed in rock, paper and scissor game. Inside Day 4
