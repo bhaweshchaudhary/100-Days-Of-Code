@@ -1,5 +1,7 @@
-# Display art
+from art import logo
 
+# Display art
+print(logo)
 # Generate a random account from the game data
 
 # Format the account data into printable format
