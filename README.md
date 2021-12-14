@@ -13,8 +13,8 @@
 | 9 | Dictionaries and Nesting | Blind Auction |
 | **10** | Functions with outputs | Calculators |
 | 11 | **Projects Day** | Blackjack capstone |
-| 12 | **Projects Day** | Scope and Number Guessing Game |
-| 13 | N/A | N/A |
+| 12 | Scopes | Scope and Number Guessing Game |
+| 13 | Debugging | N/A |
 | 14 | N/A | N/A |
 | 15 | N/A | N/A |
 | 16 | N/A | N/A |
