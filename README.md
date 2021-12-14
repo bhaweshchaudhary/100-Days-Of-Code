@@ -14,7 +14,7 @@
 | **10** | Functions with outputs | Calculators |
 | 11 | **Projects Day** | Blackjack capstone |
 | 12 | Scopes | Scope and Number Guessing Game |
-| 13 | Debugging | N/A |
+| 13 | Debugging | Debugging |
 | 14 | N/A | N/A |
 | 15 | N/A | N/A |
 | 16 | N/A | N/A |
