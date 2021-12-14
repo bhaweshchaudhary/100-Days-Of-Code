@@ -16,7 +16,7 @@
 | 12 | Scopes | Scope and Number Guessing Game |
 | 13 | Debugging | Debugging |
 | 14 | **Projects Day** | Higher Lower Game Project |
-| 15 | N/A | N/A |
+| 15 | Setup Local Development Environment | Coffee Machine Project |
 | 16 | N/A | N/A |
 | 17 | N/A | N/A |
 | 18 | N/A | N/A |
