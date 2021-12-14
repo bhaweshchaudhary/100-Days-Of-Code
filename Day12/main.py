@@ -23,4 +23,5 @@ def hellow():
 hellow()
 print(hello_world)
 
-# 2nd video: does python have block scope
+# There is no block scope.
+
