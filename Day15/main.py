@@ -31,3 +31,5 @@ resources = {
 }
 
 # TODO: 1. Prompt user by asking “​What would you like? (espresso/latte/cappuccino):”​
+
+# TODO: 2. Check the user’s input to decide what to do next.
