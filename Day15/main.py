@@ -1,4 +1,4 @@
-MAIN = {
+MENU = {
     "espresso": {
         "ingredients": {
             "water": 50,
@@ -30,74 +30,47 @@ resources = {
     "coffee": 100,
 }
 
-# TODO: 1. Prompt user by asking “What would you like? (espresso/latte/cappuccino):”
+profit = 0
 
-ask_user = input("What would you like? (espresso/latte/cappuccino)\n").lower()
+def is_resource_sufficient(order_ingredients):
+    '''returns true when orders can be made and false if ingeriendients are insufficient'''
+    is_enough = True
+    for item in order_ingredients:
+        if order_ingredients[item] >= resources[item]:
+            print(f"Sorry there is not enough {item}")
+            is_enough = False
+    return is_enough
 
-# TODO: 2. Check the user’s input to decide what to do next.
-price_espresso = MAIN["espresso"]["cost"]
-price_latte = MAIN["latte"]["cost"]
-price_cappuccino = MAIN["cappuccino"]["cost"]
+def process_coins():
+    '''returns the total calculated from the coins inserted'''
+    print("Please insert coins.")
+    total = int(input("How many quarters?: ")) * 0.25
+    total += int(input("How many dimes?: ")) * 0.1
+    total += int(input("How many nickles?: ")) * 0.05
+    total += int(input("How many pennies?: ")) * 0.01
+    return total
 
-if ask_user == "espresso":
-    print("Please insert coins.\n")
-    quarters = int(input("How many quarters?\n"))
-    dimes = int(input("How many dimes?\n"))
-    nickles = int(input("How many nickles?\n"))
-    pennies = int(input("How many pennies?\n"))
-    total = (0.25*quarters)+(0.10*dimes)+(0.05*nickles)+(0.01*pennies)
-    if total == price_espresso:
-        print("Here is your espresso. Enjoy.")
-    elif total > price_espresso:
-        change = total - price_espresso
-        print(f"Here is your change: {change}\n")
-        print("Here is your espresso. Enjoy\n")
+def is_transaction_successful(money_received, drink_cost):
+    '''Returns true when payment is accepted and false if money is insufficient.'''   
+    if money_received >= drink_cost:
+        return True
     else:
-        print(f"You don't have enough coins\nHere is your change: {total}")
+        return False 
+        print("Sorry that's not enough money, Money refunded.")
+        
 
-if ask_user == "latte":
-    print("Please insert coins.\n")
-    quarters = int(input("How many quarters?\n"))
-    dimes = int(input("How many dimes?\n"))
-    nickles = int(input("How many nickles?\n"))
-    pennies = int(input("How many pennies?\n"))
-    total = (0.25*quarters)+(0.10*dimes)+(0.05*nickles)+(0.01*pennies)
-    if total == price_latte:
-        print("Here is your latte. Enjoy.")
-    elif total > price_latte:
-        change = total - price_latte
-        print(f"Here is your change: {change}\n")
-        print("Here is your latte. Enjoy\n")
+is_on = True
+while is_on:
+    choice = input("What would you like? (espresso/latte/cappuccino): ")
+    if choice == "off":
+        is_on = False
+    elif choice == "report":
+        print(f"Water: {resources['water']}ml")
+        print(f"Milk: {resources['milk']}ml")
+        print(f"Coffee: {resources['coffee']}g")
+        print(f"Money: {profit}$")
     else:
-        print(f"You don't have enough coins\nHere is your change: {total}")
+        drink = MENU[choice]
+        if is_resource_sufficient(drink):
+            payment = process_coins()
 
-if ask_user == "cappuccino":
-    print("Please insert coins.\n")
-    quarters = int(input("How many quarters?\n"))
-    dimes = int(input("How many dimes?\n"))
-    nickles = int(input("How many nickles?\n"))
-    pennies = int(input("How many pennies?\n"))
-    total = (0.25*quarters)+(0.10*dimes)+(0.05*nickles)+(0.01*pennies)
-    if total == price_cappuccino:
-        print("Here is your latte. Enjoy.")
-    elif total > price_cappuccino:
-        change = total - price_cappuccino
-        print(f"Here is your change: {change}\n")
-        print("Here is your latte. Enjoy\n")
-    else:
-        print(f"You don't have enough coins\nHere is your change: {total}")
-
-
-# TODO: 3. The prompt should show again to serve the next customer.
-
-# TODO 4: Turn off the Coffee Machine by entering ”off" to the prompt.
-
-# TODO 5: Print report.
-
-# TODO 6: Check resources sufficient?
-
-# TODO 7: Process Coins.
-
-# TODO 8: Check transaction successful?
-
-# TODO 9: Make Coffee.
