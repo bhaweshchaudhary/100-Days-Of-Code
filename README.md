@@ -17,7 +17,7 @@
 | 13 | Debugging | Debugging |
 | 14 | **Projects Day** | Higher Lower Game Project |
 | 15 | Setup Local Development Environment | Coffee Machine Project |
-| 16 | N/A | N/A |
+| 16 | Object Oriented Programming | N/A |
 | 17 | N/A | N/A |
 | 18 | N/A | N/A |
 | 19 | N/A | N/A |
