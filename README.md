@@ -18,7 +18,7 @@
 | 14 | **Projects Day** | Higher Lower Game Project |
 | 15 | Setup Local Development Environment | Coffee Machine Project (Procedural programming) |
 | 16 | Object Oriented Programming | Coffee Machine Project using OOP |
-| 17 | N/A | N/A |
+| 17 | Creating Classes | QUIZ GAME |
 | 18 | N/A | N/A |
 | 19 | N/A | N/A |
 | 20 | N/A | N/A |
