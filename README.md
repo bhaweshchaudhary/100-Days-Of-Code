@@ -19,7 +19,7 @@
 | 15 | Setup Local Development Environment | Coffee Machine Project (Procedural programming) |
 | 16 | Object Oriented Programming | Coffee Machine Project using OOP |
 | 17 | Creating Classes | QUIZ GAME |
-| 18 | N/A | N/A |
+| 18 | Turtle & The Graphical User Interface (GUI) | Damien Hirst |
 | 19 | N/A | N/A |
 | 20 | N/A | N/A |
 | 21 | N/A | N/A |
