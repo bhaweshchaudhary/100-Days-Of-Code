@@ -20,7 +20,7 @@
 | 16 | Object Oriented Programming | Coffee Machine Project using OOP |
 | 17 | Creating Classes | QUIZ GAME |
 | 18 | Turtle & The Graphical User Interface (GUI) | Damien Hirst |
-| 19 | N/A | N/A |
+| 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game |
 | 20 | N/A | N/A |
 | 21 | N/A | N/A |
 | 22 | N/A | N/A |
