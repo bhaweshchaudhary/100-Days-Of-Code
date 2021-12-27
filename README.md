@@ -21,8 +21,8 @@
 | 17 | Creating Classes | QUIZ GAME |
 | 18 | Turtle & The Graphical User Interface (GUI) | Damien Hirst |
 | 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game |
-| 20 | **Projects Day** | Snake Game part 1|
-| 21 | **Projects Day** | Snake Game part 2|
+| 20 | **Projects Day** | Starting Snake Game - part 1|
+| 21 | Inheritance, Slicing | Finishing Snake Game - part 2|
 | 22 | N/A | N/A |
 | 23 | N/A | N/A |
 | 24 | N/A | N/A |
