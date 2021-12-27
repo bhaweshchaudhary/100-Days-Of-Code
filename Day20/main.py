@@ -1,13 +1,26 @@
-# Create a snake body
+from turtle import Turtle, Screen
+from snake import Snake
+import time
 
-# Move the snake
+mero_screen = Screen()
+mero_screen.setup(width=800, height=800)
+mero_screen.bgcolor("black")
+mero_screen.title("Mero Snake Game")
+mero_screen.tracer(0)
 
-# Control snake
+snake = Snake()
 
-# Detect collision with food
+mero_screen.listen()
+mero_screen.onkey(snake.up, "Up")
+mero_screen.onkey(snake.down, "Down")
+mero_screen.onkey(snake.left, "Left")
+mero_screen.onkey(snake.right, "Right")
 
-# Create a score board
+game_is_on = True
+while game_is_on:
+    mero_screen.update()
+    time.sleep(0.1)
+    snake.move()
 
-# Detect collision with wall
 
-# Detect collision with tail
+mero_screen.exitonclick()
