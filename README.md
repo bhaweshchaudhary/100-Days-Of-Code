@@ -23,7 +23,7 @@
 | 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game |
 | 20 | **Projects Day** | Starting Snake Game - part 1|
 | 21 | Inheritance, Slicing | Finishing Snake Game - part 2|
-| 22 | N/A | N/A |
+| 22 | **Project Day** | The Pong Game |
 | 23 | N/A | N/A |
 | 24 | N/A | N/A |
 | 25 | N/A | N/A |
