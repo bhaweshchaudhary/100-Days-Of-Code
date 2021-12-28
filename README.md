@@ -23,9 +23,9 @@
 | 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game |
 | 20 | **Projects Day** | Starting Snake Game - part 1|
 | 21 | Inheritance, Slicing | Finishing Snake Game - part 2|
-| 22 | **Project Day** | The Pong Game |
+| 22 | N/A | N/A |
 | 23 | N/A | N/A |
-| 24 | N/A | N/A |
+| 24 | Working with Local Files and Directories | Making previous snake game even better that keeps record of high score from day 21 and 22 |
 | 25 | N/A | N/A |
 | 26 | N/A | N/A |
 | 27 | N/A | N/A |
@@ -107,6 +107,7 @@
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error
 
 ## Note to myself
-Debug is needed in rock, paper and scissor game. Inside Day 4
-Follow hangman last part to complete the game and give it a final touch
-check day 10 project from while loop part
+- Debug is needed in rock, paper and scissor game. Inside Day 4
+- Follow hangman last part to complete the game and give it a final touch
+- check day 10 project from while loop part
+- I am starting from random day which interest me. 
