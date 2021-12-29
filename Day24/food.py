@@ -16,3 +16,9 @@ class Food(Turtle):
         random_x = random.randint(-380, 380)
         random_y = random.randint(-380, 380)
         self.goto(random_x, random_y)
+<<<<<<< HEAD
+=======
+
+
+## testing
+>>>>>>> 100DaysOfCodeInPython/main
