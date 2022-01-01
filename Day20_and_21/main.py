@@ -5,7 +5,7 @@ from scoreboard import Scoreboard
 import time
 
 mero_screen = Screen()
-mero_screen.setup(width=800, height=800)
+mero_screen.setup(width=600, height=600)
 mero_screen.bgcolor("black")
 mero_screen.title("Mero Snake Game")
 mero_screen.tracer(0)
@@ -33,7 +33,7 @@ while game_is_on:
         scoreboard.increase_score()
 
     # Detect collision with wall
-    if snake.head.xcor() > 390 or snake.head.xcor() < -390 or snake.head.ycor() > 390 or snake.head.ycor() < -390:
+    if snake.head.xcor() > 285 or snake.head.xcor() < -300 or snake.head.ycor() > 300 or snake.head.ycor() < -285:
         game_is_on = False
         scoreboard.game_over()
 
