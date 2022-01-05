@@ -25,4 +25,9 @@ while game_is_on:
     mero_screen.update()
     ball.move()
 
+#     Detect collision with the wall
+    if ball.ycor() > 280 or ball.ycor() < -280:
+        # needs to bounce
+        ball.bounce()
+
 mero_screen.exitonclick()
