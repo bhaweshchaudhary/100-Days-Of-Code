@@ -38,4 +38,8 @@ while game_is_on:
     if ball.xcor() > 380:
         ball.reset_position()
 
+    # Detect L_Paddle misses
+    if ball.xcor() < -380:
+        ball.reset_position()
+
 mero_screen.exitonclick()
