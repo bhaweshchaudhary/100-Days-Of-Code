@@ -10,9 +10,6 @@ mero_screen.tracer(0)
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
-
-
-
 mero_screen.listen()
 mero_screen.onkey(r_paddle.go_up, "Up")
 mero_screen.onkey(r_paddle.go_down, "Down")
