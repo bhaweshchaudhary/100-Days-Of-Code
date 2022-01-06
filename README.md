@@ -107,7 +107,6 @@
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error
 
 ## Note to myself
-- Debug is needed in rock, paper and scissor game. Inside Day 4
 - Follow hangman last part to complete the game and give it a final touch
 - check day 10 project from while loop part
 - I am starting from random day which interest me. 
