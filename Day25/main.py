@@ -20,11 +20,12 @@ import pandas
 # monday_temp_in_celsius = (monday_temp*1.8) + 32
 
 # Create a dataframe from the scratch.
+#
+# data_dict = {
+#     "Students": ["Bhawesh", "Sujan", "Gato"],
+#     "Marks": [99, 86, 98]
+# }
+#
+# data = pandas.DataFrame(data_dict)
+# print(data)
 
-data_dict = {
-    "Students": ["Bhawesh", "Sujan", "Gato"],
-    "Marks": [99, 86, 98]
-}
-
-data = pandas.DataFrame(data_dict)
-print(data)
