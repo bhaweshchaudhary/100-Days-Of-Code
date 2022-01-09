@@ -27,7 +27,7 @@
 | 23 | **Projects Day** | Turtle Crossing Capstone Game |
 | 24 | Working with Local Files and Directories | **Making previous snake game even better that keeps record of high score from day 21 and 22** |
 | 25 | Working with CSV Files and Analysing Data with Pandas | Guess States Of USA |
-| 26 | N/A | N/A |
+| 26 | List and Dictionary Comprehensions | Nato Phonetic Alphabets |
 | 27 | N/A | N/A |
 | 28 | N/A | N/A |
 | 29 | N/A | N/A |
