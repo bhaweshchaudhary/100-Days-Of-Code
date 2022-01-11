@@ -106,5 +106,3 @@
 ### Errors
 Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error
 
-## Note to myself
-- Follow hangman last part to complete the game and give it a final touch
