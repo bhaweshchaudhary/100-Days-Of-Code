@@ -33,7 +33,7 @@
 | 29 | N/A | N/A |
 | 30 | N/A | N/A |
 | 31 | N/A | N/A |
-| 32 | N/A | N/A |
+| 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | N/A | N/A |
 | 34 | N/A | N/A |
 | 35 | N/A | N/A |
