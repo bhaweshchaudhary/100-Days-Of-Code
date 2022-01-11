@@ -42,7 +42,7 @@
 | 38 | N/A | N/A |
 | 39 | N/A | N/A |
 | 40 | N/A | N/A |
-| 41 | N/A | N/A |
+| 41 | Creating Websites with HTML | Basic HTML Website |
 | 42 | N/A | N/A |
 | 43 | N/A | N/A |
 | 44 | N/A | N/A |
