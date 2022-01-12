@@ -42,9 +42,9 @@
 | 38 | N/A | N/A |
 | 39 | N/A | N/A |
 | 40 | N/A | N/A |
-| 41 | Creating Websites with HTML | Basic HTML Website |
-| 42 | Intermediate Of HTML | Personal HTML Website
-| 43 | N/A | N/A |
+| 41 | Introduction to HTML | Getting Started |
+| 42 | Intermediate Of HTML | Personal HTML Website˚
+| 43 | Introduction to CSS | N/A |
 | 44 | N/A | N/A |
 | 45 | N/A | N/A |
 | 46 | N/A | N/A |
