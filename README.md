@@ -43,9 +43,9 @@
 | 39 | N/A | N/A |
 | 40 | N/A | N/A |
 | 41 | Introduction to HTML | Getting Started |
-| 42 | Intermediate Of HTML | Personal HTML Website |
+| 42 | Intermediate HTML | Personal HTML Website |
 | 43 | Introduction to CSS | Getting Started |
-| 44 | N/A | N/A |
+| 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | N/A | N/A |
 | 46 | N/A | N/A |
 | 47 | N/A | N/A |
