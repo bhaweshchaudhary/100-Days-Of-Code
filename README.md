@@ -46,7 +46,7 @@
 | 42 | Intermediate HTML | Personal HTML Website |
 | 43 | Introduction to CSS | Getting Started |
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
-| 45 | N/A | N/A |
+| 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | N/A | N/A |
 | 47 | N/A | N/A |
 | 48 | N/A | N/A |
