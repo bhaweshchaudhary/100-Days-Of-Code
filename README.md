@@ -43,7 +43,7 @@
 | 39 | N/A | N/A |
 | 40 | N/A | N/A |
 | 41 | Creating Websites with HTML | Basic HTML Website |
-| 42 | N/A | N/A |
+| 42 | Intermediate Of HTML | Personal HTML Website
 | 43 | N/A | N/A |
 | 44 | N/A | N/A |
 | 45 | N/A | N/A |
