@@ -4,3 +4,5 @@ from bs4 import BeautifulSoup
 #     content = file.read()
 #
 # soup = BeautifulSoup(content, 'html.parser')
+
+#  scraping live website
