@@ -55,7 +55,7 @@
 | 51 | N/A | N/A |
 | 52 | N/A | N/A |
 | 53 | N/A | N/A |
-| 54 | N/A | N/A |
+| 54 | Web Development with Flask | N/A |
 | 55 | N/A | N/A |
 | 56 | N/A | N/A |
 | 57 | N/A | N/A |
