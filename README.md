@@ -29,7 +29,7 @@
 | 25 | Working with CSV Files and Analysing Data with Pandas | Guess States Of USA |
 | 26 | List and Dictionary Comprehensions | Nato Phonetic Alphabets |
 | 27 | Tkinter, args, kwargs and creating GUI Application | Unit converter program |
-| 28 | N/A | N/A |
+| 28 | **Project Day** | The Pomodoro GUI App |
 | 29 | N/A | N/A |
 | 30 | N/A | N/A |
 | 31 | N/A | N/A |
