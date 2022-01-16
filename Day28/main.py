@@ -41,7 +41,6 @@ def start_timer():
         count_down(work_sec)
         title_label.config(text="Work", fg=GREEN)
 
-
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def count_down(count):
     count_min = math.floor(count / 60)
