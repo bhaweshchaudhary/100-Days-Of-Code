@@ -13,3 +13,14 @@
 # TypeError
 # text = 'abc'
 # print(text + 5)
+
+# FileNotFound Error (handling error)
+try:
+    file = open("a.txt")
+    a_dictionary = {"key":"value"}
+    print(a_dictionary["not"])
+except FileNotFoundError:
+    # print("there was an error")
+    file = open("a.txt", mode="w")
+except KeyError as error_message:
+    print(f"The key {error_message} does not exists.")
