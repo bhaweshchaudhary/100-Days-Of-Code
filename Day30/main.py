@@ -17,10 +17,17 @@
 # FileNotFound Error (handling error)
 try:
     file = open("a.txt")
-    a_dictionary = {"key":"value"}
-    print(a_dictionary["not"])
+    a_dictionary = {"key": "value"}
+    print(a_dictionary["key"])
 except FileNotFoundError:
     # print("there was an error")
-    file = open("a.txt", mode="w")
+    file = open("a.txt", "w")
+    file.write("something")
 except KeyError as error_message:
     print(f"The key {error_message} does not exists.")
+else:
+    content = file.read()
+    print(content)
+finally:
+    file.close()
+    print("File was closed.")
