@@ -29,5 +29,6 @@ else:
     content = file.read()
     print(content)
 finally:
-    file.close()
-    print("File was closed.")
+    # file.close()
+    # print("File was closed.")
+    raise KeyError("this is an error that i made up.")
