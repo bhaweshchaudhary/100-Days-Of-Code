@@ -41,3 +41,5 @@ if height > 3:
     raise ValueError("Human height should not be more than 3 meters.")
 
 bmi = weight / height ** 2
+
+print(bmi)
