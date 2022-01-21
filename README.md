@@ -104,5 +104,6 @@
 | 100 | N/A | N/A |
 
 ### Errors
-Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error
+Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error, FileNotFound,
+
 
