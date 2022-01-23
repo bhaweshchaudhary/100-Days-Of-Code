@@ -47,9 +47,9 @@
 | 43 | Introduction to CSS | Getting Started |
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
-| 46 | **Project Day** | Time Machine Playlist For Spotify Using API and BeautifulSoup |
+| 46 | N/A | N/A |
 | 47 | N/A | N/A |
-| 48 | N/A | N/A |
+| 48 | Selenium Web Driver | N/A |
 | 49 | N/A | N/A |
 | 50 | N/A | N/A |
 | 51 | N/A | N/A |
@@ -102,8 +102,4 @@
 | 98 | N/A | N/A |
 | 99 | N/A | N/A |
 | 100 | N/A | N/A |
-
-### Errors
-Type Error, Syntax Error, Indentation Error, Index Error, Value Error, Key Error, Name Error, FileNotFound,
-
 
