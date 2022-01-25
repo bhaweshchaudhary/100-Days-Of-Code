@@ -32,7 +32,7 @@
 | 28 | **Project Day** | The Pomodoro GUI App |
 | 29 | **Project Day** | Building a password generator GUI App with Tkinter |
 | 30 | Errors, Exception, and Saving JSON Data | Improve existing password generator app |
-| 31 | N/A | N/A |
+| 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
 | 34 | N/A | N/A |
