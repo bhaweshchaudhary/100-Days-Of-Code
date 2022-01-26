@@ -9,3 +9,5 @@ browser.get("https://instagram.com")
 assert 'Instagram' in browser.title
 
 username = browser.find_element(By.NAME, '')
+
+#  TODO: instagram auto login
