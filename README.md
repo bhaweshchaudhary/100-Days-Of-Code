@@ -35,7 +35,7 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-| 34 | Django Crash Course By ItsNp |  |
+| 34 | The Trivia API | The Quizzler App  |
 | 35 | N/A | N/A |
 | 36 | N/A | N/A |
 | 37 | N/A | N/A |
