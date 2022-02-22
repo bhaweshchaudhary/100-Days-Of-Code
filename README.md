@@ -1,4 +1,4 @@
-# 100 Days Of Code In Python
+# 100 Days Of Code
 
 | Days | Topics Covered | Projects Done |
 | --- | --- | -- |
