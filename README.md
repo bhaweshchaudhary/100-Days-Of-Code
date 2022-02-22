@@ -36,7 +36,7 @@
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
 | 34 | Mero share Bot | Open source contribution  |
-| 35 | N/A | N/A |
+| 35 | Selenium | Automating Instagram Sign up |
 | 36 | N/A | N/A |
 | 37 | N/A | N/A |
 | 38 | N/A | N/A |
