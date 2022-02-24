@@ -35,8 +35,8 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-| 34 | Mero share Bot | Open source contribution  |
-| 35 | Selenium | Automating Instagram Sign up |
+| 34 | Mero share Bot | Open source contribution (pending) |
+| 35 | Selenium | Automating Instagram Sign up (pending) |
 | 36 | N/A | N/A |
 | 37 | N/A | N/A |
 | 38 | N/A | N/A |
@@ -49,13 +49,13 @@
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | N/A | N/A |
 | 47 | N/A | N/A |
-| 48 | Selenium Web Driver | N/A |
+| 48 | Selenium Web Driver | N/A (pending) |
 | 49 | N/A | N/A |
 | 50 | N/A | N/A |
 | 51 | N/A | N/A |
 | 52 | N/A | N/A |
 | 53 | N/A | N/A |
-| 54 | Web Development with Flask | N/A |
+| 54 | | N/A |
 | 55 | N/A | N/A |
 | 56 | N/A | N/A |
 | 57 | N/A | N/A |
