@@ -1,0 +1,1 @@
+[![CodeQL](https://github.com/callmebhawesh/100-Days-Of-Code/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/callmebhawesh/100-Days-Of-Code/actions/workflows/codeql-analysis.yml)
