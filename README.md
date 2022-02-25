@@ -37,7 +37,7 @@
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
 | 34 | Mero share Bot | Open source contribution (pending) |
 | 35 | Selenium | Automating Instagram Sign up (pending) |
-| 36 | N/A | N/A |
+| 36 | Django | Word Counter |
 | 37 | N/A | N/A |
 | 38 | N/A | N/A |
 | 39 | N/A | N/A |
