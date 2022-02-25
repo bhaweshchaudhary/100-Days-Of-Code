@@ -38,7 +38,7 @@
 | 34 | Mero share Bot | Open source contribution (pending) |
 | 35 | Selenium | Automating Instagram Sign up (pending) |
 | 36 | Django | Word Counter |
-| 37 | N/A | N/A |
+| 37 | Django | Adding backend functionality to a html template |
 | 38 | N/A | N/A |
 | 39 | N/A | N/A |
 | 40 | N/A | N/A |
