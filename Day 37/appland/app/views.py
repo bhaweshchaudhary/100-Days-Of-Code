@@ -16,13 +16,13 @@ def app(request):
     return render(request, 'index.html', {"logo": my_header.head, "main_text": my_header.main_text, "desc": my_header.desc, "second_head": second.head})
 
 def register(request):
-    if request.method == 'post':
-        username = request.post['username']
-        email = request.post['email']
-        password = request.post['password']
-        password2 = request.post['password2']
+    if request.method == 'POST':
+        username = request.POST['username']
+        email = request.POST['email']
+        password1 = request.POST['password1']
+        password2 = request.POST['password2']
 
-        if password == password2:
+        if password1 == password2:
             if User.objects.filter(email=email).exists():
                 messages.info(request, 'Email Already Used')
                 return redirect('register')
@@ -30,9 +30,10 @@ def register(request):
                 messages.info(request, 'Username already in use')
                 return redirect('register')
             else:
-                user = User.objects.create_user(username=username, email=email, password=password)
+                user = User.objects.create_user(username=username, email=email, password=password1)
+                messages.info(request, 'accounts successfully created')
                 user.save()
-                return redirect('login')
+                return redirect('register')
         else:
             messages.info(request, 'Password not matched')
             return redirect('register')
