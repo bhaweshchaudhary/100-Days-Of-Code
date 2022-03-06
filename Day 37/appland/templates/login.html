@@ -11,16 +11,16 @@
       crossorigin="anonymous"
     />
 
-    <title>Register Now</title>
+    <title>Login Now</title>
   </head>
   <body>
-    <h1 class="display-1 mb-5 container">Sign Up Now</h1>
+    <h1 class="display-1 mb-5 container">Login Now</h1>
     {% for message in messages %}
  
         <h3 class="container">{{ message }}</h3>
        {% endfor %}
     <div class="container my-5">
-      <form action="register" method="POST">
+      <form action="login" method="POST">
           {% csrf_token %}
         <div class="mb-3">
           <label for="InputUsername" class="form-label">Username</label>
@@ -32,39 +32,15 @@
           />
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-            name="email"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
-          </div>
-        </div>
-        <div class="mb-3">
           <label for="InputPassword1" class="form-label">Password</label>
           <input
             type="password"
             class="form-control"
-            id="InputPassword1"
-            name="password1"
+            id="InputPassword"
+            name="password"
           />
         </div>
-        <div class="mb-3">
-          <label for="InputPassword2" class="form-label">Retype Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="InputPassword2"
-            name="password2"
-          />
-        </div>
-        <button type="submit" class="btn btn-primary">Register</button>
+        <button type="submit" class="btn btn-primary">Login</button>
       </form>
     </div>
     <script
