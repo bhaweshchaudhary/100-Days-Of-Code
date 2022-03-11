@@ -1,51 +1,34 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
   <title>Blog - SoftLand Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: SoftLand - v4.7.0
-  * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
 </head>
-
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
-
       <div class="logo">
         <h1><a href="index.html">SoftLand</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="" href="index.html">Home</a></li>
@@ -72,17 +55,13 @@
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
-  </header><!-- End Header -->
-
+  </header>
   <main id="main">
-
     <!-- ======= Blog Section ======= -->
     <section class="hero-section inner-page">
       <div class="wave">
-
         <svg width="1920px" height="265px" viewBox="0 0 1920 265" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
@@ -90,9 +69,7 @@
             </g>
           </g>
         </svg>
-
       </div>
-
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12">
@@ -114,7 +91,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_1.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_1.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -127,7 +104,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_2.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -140,7 +117,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_3.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -154,7 +131,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_4.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_4.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -167,7 +144,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_3.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_3.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -180,7 +157,7 @@
           <div class="col-md-4">
             <div class="post-entry">
               <a href="blog-single.html" class="d-block mb-4">
-                <img src="assets/img/img_2.jpg" alt="Image" class="img-fluid">
+                <img src="{% static 'assets/img/img_2.jpg' %}" alt="Image" class="img-fluid">
               </a>
               <div class="post-text">
                 <span class="post-meta">December 13, 2019 &bullet; By <a href="#">Admin</a></span>
@@ -193,14 +170,14 @@
 
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-12 text-center">
             <span class="p-3 active text-primary">1</span>
             <a href="#" class="p-3">2</a>
             <a href="#" class="p-3">3</a>
             <a href="#" class="p-3">4</a>
           </div>
-        </div>
+        </div> -->
       </div>
 
     </section>

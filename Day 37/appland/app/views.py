@@ -57,3 +57,6 @@ def Login(request):
 
     else:
         return render(request, 'login.html')
+
+def blog(request):
+    return render(request, 'blog.html')
