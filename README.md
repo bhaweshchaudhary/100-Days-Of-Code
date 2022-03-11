@@ -39,8 +39,8 @@
 | 35 | Selenium | Automating Instagram Sign up (pending) |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
-| 38 | Django | BLOG |
-| 39 | N/A | N/A |
+| 38 | Django | Building a BLOG App |
+| 39 | Django | Building a Weather App |
 | 40 | N/A | N/A |
 | 41 | Introduction to HTML | Getting Started |
 | 42 | Intermediate HTML | Personal HTML Website |
