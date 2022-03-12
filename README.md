@@ -1,5 +1,7 @@
 # 100 Days Of Code
 
+[100 Days Of Code](https://ibb.co/v3PQ2tN)
+
 | Days | Topics Covered | Projects Done |
 | --- | --- | -- |
 | 1 | Printing , Commenting, Debugging, String Manipulation and Variables | Band Name Generator |
