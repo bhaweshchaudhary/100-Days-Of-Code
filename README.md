@@ -1,6 +1,6 @@
 # 100 Days Of Code
 
-<a href="https://ibb.co/v3PQ2tN"><img src="https://i.ibb.co/2vtsXbz/100-days-of-code.jpg" alt="100-days-of-code" border="0"></a>
+<img src="https://i.ibb.co/2vtsXbz/100-days-of-code.jpg" alt="100-days-of-code" border="0">
 
 | Days | Topics Covered | Projects Done |
 | --- | --- | -- |
