@@ -43,7 +43,7 @@
 | 37 | Django | Adding backend functionality to a html template |
 | 38 | Django | Building a BLOG App |
 | 39 | Django | Building a Weather App |
-| 40 | N/A | N/A |
+| 40 | Django | Building a Real Time Chat Application |
 | 41 | Introduction to HTML | Getting Started |
 | 42 | Intermediate HTML | Personal HTML Website |
 | 43 | Introduction to CSS | Getting Started |
