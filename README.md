@@ -50,7 +50,7 @@
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | Python Guide Style | Cloned Projects |
-| 47 | N/A | N/A |
+| 47 | Ursina Game Engine | Trying ursina |
 | 48 | Selenium Web Driver | N/A (pending) |
 | 49 | N/A | N/A |
 | 50 | N/A | N/A |
