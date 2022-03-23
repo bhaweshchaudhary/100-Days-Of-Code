@@ -52,7 +52,7 @@
 | 46 | Python Guide Style | Cloned Projects |
 | 47 | Ursina Game Engine | Trying ursina |
 | 48 | Selenium Web Driver | N/A (pending) |
-| 49 | Frontend | Spotify Clone |
+| 49 | Django | Ecommerce site |
 | 50 | N/A | N/A |
 | 51 | N/A | N/A |
 | 52 | N/A | N/A |
