@@ -4,5 +4,6 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Day 34/chromeloader" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Day 34/meroshare-bot" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Day 46/python-guide" vcs="Git" />
   </component>
 </project>
