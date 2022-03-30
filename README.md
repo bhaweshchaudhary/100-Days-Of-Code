@@ -53,7 +53,7 @@
 | 47 | Ursina Game Engine | Trying ursina |
 | 48 | Selenium Web Driver | N/A (pending) |
 | 49 | Django | Ecommerce site |
-| 50 | N/A | N/A |
+| 50 | Django | Django Rest Framework Crash Course |
 | 51 | N/A | N/A |
 | 52 | N/A | N/A |
 | 53 | N/A | N/A |
