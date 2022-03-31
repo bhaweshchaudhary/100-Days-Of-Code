@@ -54,7 +54,7 @@
 | 48 | Selenium Web Driver | N/A (pending) |
 | 49 | Django | Ecommerce site |
 | 50 | Django | Django Rest Framework Crash Course |
-| 51 | Javascript | From Scratch |
+| 51 |  N/A | N/A |
 | 52 | N/A | N/A |
 | 53 | N/A | N/A |
 | 54 | | N/A |
