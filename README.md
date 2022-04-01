@@ -55,7 +55,7 @@
 | 49 | Django | Ecommerce site |
 | 50 | Django | Django Rest Framework Crash Course |
 | 51 |  Django | Personal Portfolio |
-| 52 | N/A | N/A |
+| 52 | Frontend | Spotify Clone |
 | 53 | N/A | N/A |
 | 54 | | N/A |
 | 55 | N/A | N/A |
