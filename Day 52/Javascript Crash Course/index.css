@@ -1,3 +1,9 @@
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
 .container {
     background-color: #22577E;
     display: flex;
