@@ -1,0 +1,106 @@
+.container {
+    background-color: #22577E;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 1075px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 89px;
+}
+
+textarea {
+    margin-left: auto;
+    margin-right: auto;
+    width: 997px;
+    border-radius: 4rem;
+    height: 5rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(180deg, #22577E, #FDFEFF);
+    border: none;
+    opacity: 0.2;
+    resize: none;
+}
+
+.pi,
+.seven,
+.four,
+.one,
+.decimal {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: #478A99;
+    border: none;
+    ;
+}
+
+.xsquare {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 20rem;
+    margin-top: -23rem;
+    background-color: #408FA0;
+    border: none;
+}
+
+.eight,
+.five,
+.two,
+.zero {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    background-color: #B26161;
+    border: none;
+}
+
+.percentage {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 35rem;
+    margin-top: -23rem;
+    border: none;
+    background-color: aqua;
+}
+
+.nine,
+.six,
+.three,
+.del {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 35rem;
+    margin-top: 2rem;
+    background-color: antiquewhite;
+    border: none;
+}
+
+.divide {
+    width: 8rem;
+    height: 3rem;
+    margin-left: 50rem;
+    margin-top: -23rem;
+    border: none;
+}
+
+.multiply,
+.add {
+    border: none;
+    width: 8rem;
+    height: 3rem;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    background-color: #DAD32F;
+}
+
+.equalsto {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 50rem;
+    margin-top: 2rem;
+    background-image: linear-gradient(#05FFF0, #5BC7AD00);
+    border: none;
+}
