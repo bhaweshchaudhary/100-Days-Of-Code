@@ -20,6 +20,9 @@ textarea {
     border: none;
     opacity: 0.2;
     resize: none;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
 }
 
 .pi,
