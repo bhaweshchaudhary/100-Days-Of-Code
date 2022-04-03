@@ -17,7 +17,6 @@ let multiply = document.getElementById("multiply");
 let add = document.getElementById("add");
 let equalsto = document.getElementById("equalsto");
 
-function pi() {
-    let pi = document.getElementById("pi");
-    document.getElementById("screen").innerHTML = pi;
+function mypi() {
+    document.getElementById("screen").innerHTML = "3.14";
 }
