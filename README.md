@@ -56,7 +56,7 @@
 | 50 | Django | Django Rest Framework Crash Course |
 | 51 | Django | Personal Portfolio |
 | 52 | Javascript | Calculator |
-| 53 | N/A | N/A |
+| 53 | Frontend | Godaddy Sigin Clone |
 | 54 | | N/A |
 | 55 | N/A | N/A |
 | 56 | N/A | N/A |
