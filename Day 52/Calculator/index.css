@@ -113,3 +113,14 @@ h1 {
     background-image: linear-gradient(#05FFF0, #5BC7AD00);
     border: none;
 }
+
+.footer {
+    display: flex;
+
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
