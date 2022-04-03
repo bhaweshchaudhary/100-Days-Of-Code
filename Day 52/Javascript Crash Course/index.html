@@ -9,32 +9,33 @@
   </head>
   <body>
     <h1>Calculator</h1>
+    <form name="myform" onsubmit="event.preventDefault()">
     <div class="container">
       
-        <textarea contenteditable="true" name="screen" id="screen" cols="30" rows="10"></textarea>
+        <input type="text" name="screen" class="textarea">
       
-        <button class="pi" id="pi" onclick=mypi>π</button>
-        <button class="seven" id="seven">7</button>
-        <button class="four" id="four">4</button>
-        <button class="one" id="one">1</button>
-        <button class="decimal" id="decimal">.</button>
-        <button class="xsquare" id="xsquare">X<sup>2</sup></button>
-        <button class="eight" id="eight">8</button>
-        <button class="five" id="five">5</button>
-        <button class="two" id="two">2</button>
-        <button class="zero" id="zero">0</button>
-        <button class="percentage" id="percentage">%</button>
-        <button class="nine" id="nine">9</button>
-        <button class="six" id="six">6</button>
-        <button class="three" id="three">3</button>
-        <button class="del" id="del">DEL</button>
-        <button class="divide" id="divide">/</button>
-        <button class="multiply" id="multiply">X</button>
-        <button class="add" id="add">+</button>
-        <button class="equalsto" id="equalsto"> = </button>
+        <button class="pi" id="pi" value="3.14" onclick="myform.screen.value+='3.14'">π</button>
+        <button class="seven" id="seven" value="7" onclick="myform.screen.value+='7'">7</button>
+        <button class="four" id="four" value="4" onclick="myform.screen.value+='4'">4</button>
+        <button class="one" id="one" value="1" onclick="myform.screen.value+='1'">1</button>
+        <button class="decimal" id="decimal" value="." onclick="myform.screen.value+='.'">.</button>
+        <button class="xsquare" id="xsquare" value="square" onclick="myform.screen.value+='Need help to fix this button'">X<sup>2</sup></button>
+        <button class="eight" id="eight" value="8" onclick="myform.screen.value+='8'">8</button>
+        <button class="five" id="five" value="5" onclick="myform.screen.value+='5'">5</button>
+        <button class="two" id="two" value="2" onclick="myform.screen.value+='2'">2</button>
+        <button class="zero" id="zero" value="0" onclick="myform.screen.value+='0'">0</button>
+        <button class="percentage" id="percentage" value="%" onclick="myform.screen.value+='%'">%</button>
+        <button class="nine" id="nine" value="9" onclick="myform.screen.value+='9'">9</button>
+        <button class="six" id="six" value="6" onclick="myform.screen.value+='6'">6</button>
+        <button class="three" id="three" value="3" onclick="myform.screen.value+='3'">3</button>
+        <button class="clear" id="clear" value="Clear All" onclick="myform.screen.value=''">CLEAR</button>
+        <button class="divide" id="divide" value="/" onclick="myform.screen.value+='/'">/</button>
+        <button class="multiply" id="multiply" value="*" onclick="myform.screen.value+='*'">X</button>
+        <button class="add" id="add" value="+" onclick="myform.screen.value+='+'">+</button>
+        <button class="equalsto" id="equalsto" value="=" onclick="myform.screen.value = eval(myform.screen.value)"> = </button>
 
     </div>
-
-    <script src="script.js"></script>
+  </form>
+    
   </body>
 </html>
