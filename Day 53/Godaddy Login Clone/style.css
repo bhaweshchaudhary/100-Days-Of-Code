@@ -1,0 +1,25 @@
+.container {
+    border-radius: var(--ux-2jubes,2px);
+    margin-left: auto;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    color: var(--ux-1leynsm,#000);
+    border: 1px solid var(--ux-97h3vl,#d3d3d3);
+    width: 35rem;
+    height: 35rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: -1rem;
+}
+
+.newto {
+    
+}
