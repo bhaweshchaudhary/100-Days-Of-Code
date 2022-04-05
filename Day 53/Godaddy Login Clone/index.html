@@ -1,45 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoDaddy Login Page Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="top">
-            <img src="./Nest-Nepal-Title-dark-1080x216.png" alt="Nest Nepal Logo" class="logo">
-            <h2 class="signinhead">
-                Sign in
-            </h2>
-            <p class="newto">
-                New to Nest Nepal? &nbsp;<a href="#">Create an Account</a>
-            </p>
-            <form name="login">
-                <input type="text" name="username" required id="username" placeholder="Username" aria-required="true" ><br>
-                <input type="password" name="password" id="password" placeholder="Password" required><br>
-                <input type="checkbox" name="checkme" id="checkme" class="checkbox" required>&nbsp;Keep me signed in on this device<br>
-                <button class="signin">Sign In</button>
-                <br>
-            </form>
+      <div class="top">
+        <img
+          src="./Nest-Nepal-Title-dark-1080x216.png"
+          alt="Nest Nepal Logo"
+          class="logo"
+        />
+        <h2 class="signinhead">Sign in</h2>
+        <p class="newto">
+            {lang key='userLogin.notRegistered'} &nbsp;<a href="{$WEB_ROOT}/register.php">{lang key='userLogin.createAccount'}</a>
+        </p>
+        <form name="login" action="{routePath('login-validate')}" method="post" role="form">
+          <input
+            type="text"
+            name="username"
+            required
+            id="inputEmail"
+            for="email"
+            placeholder="Enter your Email Address"
+            aria-required="true"
+          /><br />
+          <input
+            type="password"
+            name="inputPassword"
+            id="password"
+            placeholder="Password"
+            required
+            autocomplete="off"
+          /><br />
+          <input
+            type="checkbox"
+            name="rememberme"
+            id="terms-check"
+            class="checkbox"
+            required
+          />&nbsp;{lang key='loginrememberme'}<br />
+          {if $captcha->isEnabled()} {include
+          file="$template/includes/captcha.tpl"} {/if}
+          <button class="signin {$captcha->getButtonClass($captchaForm)}" id="login" type="submit">{lang key='loginbutton'}</button>
+          <br />
+        </form>
+      </div>
+      <div class="low">
+        <p class="orsigninwith">or sign in with</p>
+        <br />
+        <div class="loginwith">
+          <img src="./googlepng.png" alt="Google" class="google" />
+          <img src="./facebook.png" alt="Google" class="google" />
         </div>
-        <div class="low">
-            <p class="orsigninwith">or sign in with</p><br>
-            <div class="loginwith">
-                <img src="./googlepng.png" alt="Google" class="google">
-                <img src="./facebook.png" alt="Google" class="google">
-                
-            </div>
-            
-            <br>
-            <p class="reset">
-                Need to find <a href="#">your username</a> or <a href="#">your password</a>&nbsp;?
-            </p>
-    </div>
-    
+
+        <br />
+        <p class="reset">
+          Need to find <a href="#">your username</a> or
+          <a href="#">your password</a>&nbsp;?
+        </p>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
