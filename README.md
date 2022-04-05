@@ -57,7 +57,7 @@
 | 51 | Django | Personal Portfolio |
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
-| 54 | | N/A |
+| 54 | Flask | Getting started with Flask |
 | 55 | N/A | N/A |
 | 56 | N/A | N/A |
 | 57 | N/A | N/A |
