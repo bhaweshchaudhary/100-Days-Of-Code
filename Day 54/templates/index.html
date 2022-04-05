@@ -18,7 +18,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ToDo</a>
+        <a class="navbar-brand" href="/">ToDo</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -78,7 +78,7 @@
     </nav>
 
     <div class="container my-4 mb-3">
-      <form>
+      <form action="/" method="POST">
         <div class="mb-3">
           <label for="title" class="form-label"
             >Todo Title</label
@@ -87,6 +87,7 @@
             type="text"
             class="form-control"
             id="title"
+            name="title"
             aria-describedby="emailHelp"
           />
           
@@ -94,8 +95,9 @@
         <div class="mb-3">
           <label for="desc" class="form-label">Todo Description</label>
           <input
-            type="password"
+            type="text"
             class="form-control"
+            name="desc"
             id="desc"
           />
         </div>
@@ -105,35 +107,39 @@
     </div>
 
     <div class="container my-4">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">SNo</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+        {% if mytodo|length==0 %}
+        no record
+    
+{% else %}
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">SNo</th>
+        <th scope="col">Title</th>
+        <th scope="col">Description</th>
+        <th scope="col">Time</th>
+        <th scope="col">Update</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for todo in mytodo %}
+        <tr>
+            <th scope="row">{{ loop.index }}</th>
+            <td>{{ todo.title }}</td>
+            <td>{{ todo.desc }}</td>
+            <td>{{ todo.date_created }}</td>
+            <td><a href="/update/{{todo.sno}}"><button type="button" class="btn btn-outline-dark mx-1">Update</button></a>
+                <a href="/delete/{{todo.sno}}"><button type="button" class="btn btn-outline-danger mx-1">Delete</button></a>
+
+            </td>
           </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
+        {% endfor %}
+      
+    </tbody>
+  </table>
+{% endif %}
+      
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
