@@ -1,0 +1,1 @@
+This login page can be used in your whmcs.
