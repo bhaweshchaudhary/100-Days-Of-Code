@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
 
 .container {
     border-radius: var(--ux-2jubes,2px);
@@ -7,8 +11,8 @@
     margin-top: 3rem;
     color: var(--ux-1leynsm,#000);
     border: 1px solid var(--ux-97h3vl,#d3d3d3);
-    width: 35rem;
-    height: 35rem;
+    width: 36rem;
+    height: 37rem;
 }
 
 .logo {
@@ -63,7 +67,8 @@
     border: none;
     color: white;
     background-color: #000;
-    font-weight: 400;
+    font-weight: 700;
+    font-size: 1.1rem;
 }
 
 .low {
@@ -107,3 +112,27 @@
 a:link, a:visited, a:hover, a:active {
     color: rgb(0, 0, 0)
 }
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(0, 0, 0);
+    opacity: 1; /* Firefox */
+    overflow: hidden;
+    padding: 1rem;
+  }
+
+
+@media screen and (min-width: )
