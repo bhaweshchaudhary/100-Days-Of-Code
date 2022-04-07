@@ -59,7 +59,7 @@
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
 | 55 | Flask | Personal Portfolio Website |
-| 56 | N/A | N/A |
+| 56 | Data Structure Algorithm | C++ |
 | 57 | N/A | N/A |
 | 58 | N/A | N/A |
 | 59 | N/A | N/A |
