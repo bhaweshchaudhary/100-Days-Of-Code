@@ -60,7 +60,7 @@
 | 54 | Flask | Todo App With Flask |
 | 55 | Flask | Personal Portfolio Website |
 | 56 | Data Structure Algorithm | C++ |
-| 57 | N/A | N/A |
+| 57 | Java | Getting Started with Core Java |
 | 58 | N/A | N/A |
 | 59 | N/A | N/A |
 | 60 | N/A | N/A |
