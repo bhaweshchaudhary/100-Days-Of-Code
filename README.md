@@ -52,7 +52,7 @@
 **| 46 | Python Guide Style | Cloned Projects |**
 **| 47 | Ursina Game Engine | Trying ursina |**
 **| 48 | Selenium Web Driver | N/A (pending) |**
-**| 49 | Django | Ecommerce site |**
+**| 49 | Django | Added backend functionality to pcoint theme |**
 **| 50 | Django | Django Rest Framework Crash Course |**
 **| 51 | Django | Personal Portfolio |**
 | 52 | Javascript | Calculator |
