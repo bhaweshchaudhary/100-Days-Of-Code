@@ -1,10 +1,30 @@
+// simple java program
+
+// public class one{
+//     public static void main(String[] args){
+//         System.out.println("Hello World");
+//     }
+// }
+
+
+//  boolean data type
+
+// public class one{
+//     public static void main(String[] args){
+//         int mark = 78;
+//         boolean isPass = false;
+//         if(mark>40){
+//             isPass = true;
+//         }
+//         System.out.println(isPass);
+//     }
+// }
+
+//byte data type in java
+
 public class one{
     public static void main(String[] args){
-        byte age = 32;
-        int number = 1234567890;
-        long phoneNumber = 12345678900L;
-        float pi = 3.14F;
-        char letter = '@';
-        boolean isAdult = true;
+        byte num = 32;
+        System.out.println(num);
     }
 }
