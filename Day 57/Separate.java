@@ -6,5 +6,6 @@ public class Separate {
         // System.out.println(fName.codePointAt(2) + "\n" + lName.codePointAt(3));
         // System.out.println(fName.codePointBefore(3) + "\n" + lName.codePointBefore(3));
         // System.out.println(fName.compareTo(lName));
+        
     }
 }
