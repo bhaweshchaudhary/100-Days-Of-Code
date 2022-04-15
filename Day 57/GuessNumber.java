@@ -48,3 +48,32 @@ ALGORITHM
 
 
 
+import java.util.Scanner;
+import java.util.Random;
+
+public class GuessNumber{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        Random rn = new Random();
+        int randomNumber = rn.nextInt(100);
+        int tookInput;
+
+        do{
+            System.out.println("Guess your number : ");
+            tookInput = sc.nextInt();
+            if(tookInput==randomNumber){
+                System.out.println("Wow awesome. Your guess is correct.");
+                break;
+            }
+            else if(tookInput>randomNumber){
+                System.out.println("Your number is large.");
+            }
+            else{
+                System.out.println("Your number is small.");
+            }
+        } while(tookInput>=0);
+
+        System.out.println("My number was "+randomNumber);
+
+    }
+}
