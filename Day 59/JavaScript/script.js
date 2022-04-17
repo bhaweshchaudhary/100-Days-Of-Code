@@ -87,3 +87,37 @@ console.log("6" / "2");
 
 
 // Basic operator math
+// + - * / %
+// alert(+"");
+
+
+
+let one = "1";
+let two = "2";
+
+//alert(one + two); // return 12 by concatenating string
+//alert(+one + +two); // return 3 by converting string to number and adding them
+
+// Bitwise operator
+
+// bitwise operator treat arguments as 32 bit integers number and work on the level of their binary representation.
+// And &
+// Or |
+// XOR ^
+// Not ~
+// Left shift <<
+// Right shift >>
+// Zero-fill right shift >>>
+
+
+// COMMA
+// The comma operator , is one of the rarest and most unusual operators. Sometimes, it’s used to write shorter code, so we need to know it in order to understand what’s going on.
+
+// The comma operator allows us to evaluate several expressions, dividing them with a comma,.Each of them is evaluated but only the result of the last one is returned.
+
+// let a = (1 + 2, 3 + 4);
+
+// alert(a); // 7 (the result of 3 + 4)
+
+
+// Comparison
