@@ -37,8 +37,8 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-**| 34 | Mero share Bot | Open source contribution (pending) |**
-**| 35 | Selenium | Automating Instagram Sign up (pending) |**
+| 34 | **Mero share Bot** | **Open source contribution** |
+| 35 | **Selenium** | **Automating Instagram Sign up (pending)** |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
 | 38 | Django | Building a BLOG App |

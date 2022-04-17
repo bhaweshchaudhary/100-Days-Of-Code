@@ -83,4 +83,4 @@ console.log("The continent of " + country + " is " + continent + " and it's popu
 // let age = prompt("What is your age ?")
 // alert(`You are ${age} yrs old.`)
 
-
+console.log("6" / "2");
