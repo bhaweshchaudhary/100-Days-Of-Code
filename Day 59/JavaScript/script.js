@@ -121,3 +121,17 @@ let two = "2";
 
 
 // Comparison
+
+
+// conditional branching
+let age = 16;
+// let ages = (age > 15) ? alert("you're young") : alert("You're child");
+
+// Assignment
+
+// let userAnswer = prompt("What's the official name of javascript?");
+// let answer = userAnswer == "Ecmascript" ? alert("Right") : alert("You don't know Ecmascript?");
+
+
+
+// Logical operators
