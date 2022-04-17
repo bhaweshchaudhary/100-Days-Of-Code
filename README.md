@@ -49,19 +49,19 @@
 | 43 | Introduction to CSS | Getting Started |
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
-**| 46 | Python Guide Style | Cloned Projects |**
-**| 47 | Ursina Game Engine | Trying ursina |**
-**| 48 | Selenium Web Driver | N/A (pending) |**
-**| 49 | Django | Added backend functionality to pcoint theme |**
-**| 50 | Django | Django Rest Framework Crash Course |**
-**| 51 | Django | Personal Portfolio |**
+| 46 | **Python Guide Style** | **Cloned Projects** |
+| 47 | **Ursina Game Engine** | **Trying ursina** |
+| 48 | **Selenium Web Driver** | **N/A (pending)** |
+| 49 | **Django** | **Added backend functionality to pcoint theme** |
+| 50 | **Django** | **Django Rest Framework Crash Course** |
+| 51 | **Django** | **Personal Portfolio** |**
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
-**| 55 | Flask | Personal Portfolio Website |**
-**| 56 | Data Structure Algorithm | C++ |**
-**| 57 | Java | Getting Started with Core Java |**
-**| 58 | Data structure for python developer | Building Flask API to learn Data structure |**
+| 55 | **Flask** | **Personal Portfolio Website** |
+| 56 | **Data Structure Algorithm** | **C++** |
+| 57 | **Java** | **Getting Started with Core Java** |
+| 58 | **Data structure for python developer** | **Building Flask API to learn Data structure** |
 | 59 | N/A | N/A |
 | 60 | N/A | N/A |
 | 61 | N/A | N/A |
