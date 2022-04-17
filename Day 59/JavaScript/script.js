@@ -84,3 +84,6 @@ console.log("The continent of " + country + " is " + continent + " and it's popu
 // alert(`You are ${age} yrs old.`)
 
 console.log("6" / "2");
+
+
+// Basic operator math
