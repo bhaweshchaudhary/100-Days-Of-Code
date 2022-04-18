@@ -186,4 +186,10 @@ if (forJohn == true) {
     document.getElementById("john").innerHTML = `John your BMI is ${johnBmi}`;
 }
 
+
+
+Strings and Template literals
+
+
+
 */
