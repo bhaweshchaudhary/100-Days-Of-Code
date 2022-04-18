@@ -140,4 +140,50 @@ let age = 16;
 
 
 
+
+
+
+JavaScript Fundamentals – Part 1 
+ 
+ 
+Coding Challenge #1 
+
+Mark and John are trying to compare their BMI(Body Mass Index), which is 
+calculated using the formula:
+
+BMI = mass / height ** 2 = mass / (height * height)(mass in kg 
+and height in meter). 
+
+Your tasks:
+
+1. Store Mark's and John's mass and height in variables
+
+2. Calculate both their BMIs using the formula(you can even implement both 
+versions)
+
+3. Create a Boolean variable 'markHigherBMI' containing information about 
+whether Mark has a higher BMI than John. 
+
+Test data: 
+
+Data 1: Marks weights 78 kg and is 1.69 m tall.John weights 92 kg and is 1.95 tall. 
+
+Data 2: Marks weights 95 kg and is 1.88 m tall.John weights 85 kg and is 1.76 tall.
+
+
+
+let firstGuy = "Mark";
+let secondGuy = "John";
+let markMass = prompt(`${firstGuy}, Please enter your weight in kg`);
+let markHeight = prompt(`${firstGuy}, Please enter your height in meter`);
+let markBmi = markMass / markHeight ** 2;
+document.getElementById("mark").innerHTML = `Mark your BMI is ${markBmi}`;
+let forJohn = confirm("Do you want to calculate BMI for John also?");
+if (forJohn == true) {
+    let johnMass = prompt(`${secondGuy}, Please enter your weight in kg`);
+    let johnHeight = prompt(`${secondGuy}, Please enter your height in meter`);
+    let johnBmi = johnMass / johnHeight ** 2;
+    document.getElementById("john").innerHTML = `John your BMI is ${johnBmi}`;
+}
+
 */
