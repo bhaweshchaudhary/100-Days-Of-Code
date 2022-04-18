@@ -1,3 +1,5 @@
+/*
+
 let js = "amazing";
 // if (js === "amazing") alert("js is fun");
 console.log(23 + 12 - 40);
@@ -135,3 +137,7 @@ let age = 16;
 
 
 // Logical operators
+
+
+
+*/
