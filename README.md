@@ -62,7 +62,7 @@
 | 56 | **Data Structure Algorithm** | **C++** |
 | 57 | **Java** | **Getting Started with Core Java** |
 | 58 | **Data structure for python developer** | **Building Flask API to learn Data structure** |
-| 59 | N/A | N/A |
+| 59 | **JavaScript** | **From zero to hero** |
 | 60 | N/A | N/A |
 | 61 | N/A | N/A |
 | 62 | N/A | N/A |
