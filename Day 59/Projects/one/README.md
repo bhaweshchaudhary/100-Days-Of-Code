@@ -1,1 +1,1 @@
-# This is a clock project in javascript.
+# Lesson 19 Clever Qazi to resume
