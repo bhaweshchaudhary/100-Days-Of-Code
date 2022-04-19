@@ -192,4 +192,12 @@ Strings and Template literals
 
 
 
+
+createElement and createTextNode
+
+const heading = document.createElement("h1");
+const paragraph = document.createTextNode("This is paragraph");
+heading.appendChild(paragraph);
+document.body.appendChild(heading);
 */
+
