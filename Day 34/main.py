@@ -1,10 +1,11 @@
+
+'''
 fruits = ['orange', 'pineapple', 'mango']
 x, y, z = fruits
 print(x)
 print(y)
 print(z)
 
-'''
 Python has the following data types built-in by default, in these categories:
 
 Text Type:	str
@@ -76,6 +77,16 @@ zfill() fills the string with a specified number of 0 values at the beginning
 
 
 Python List
+
+print(list(("hello", "namaste"))) # this is list constructor
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
 '''
 
