@@ -73,6 +73,10 @@ translate() returns a translated string
 upper() converts a string into upper case
 zfill() fills the string with a specified number of 0 values at the beginning 
 
+
+
+Python List
+
 '''
 
 
