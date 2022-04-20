@@ -1,1 +1,0 @@
-# Lesson 19 Clever Qazi to resume
