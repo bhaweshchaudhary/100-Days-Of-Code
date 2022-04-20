@@ -37,7 +37,7 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-| 34 | N/A | N/A |
+| 34 | Python Note | w3Schools python |
 | 35 | N/A | N/A |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
