@@ -37,8 +37,8 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-| 34 | **Mero share Bot** | **Open source contribution** |
-| 35 | **Selenium** | **Automating Instagram Sign up (pending)** |
+| 34 | N/A | N/A |
+| 35 | N/A | N/A |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
 | 38 | Django | Building a BLOG App |
@@ -49,18 +49,18 @@
 | 43 | Introduction to CSS | Getting Started |
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
-| 46 | **Python Guide Style** | **Cloned Projects** |
-| 47 | **Ursina Game Engine** | **Trying ursina** |
-| 48 | **Selenium Web Driver** | **N/A (pending)** |
-| 49 | **Django** | **Added backend functionality to pcoint theme** |
-| 50 | **Django** | **Django Rest Framework Crash Course** |
-| 51 | **Django** | **Personal Portfolio** |**
+| 46 | N/A | N/A |
+| 47 | N/A | N/A |
+| 48 | N/A | N/A |
+| 49 | Django | Added backend functionality to pcoint theme |
+| 50 | N/A | N/A |
+| 51 | N/A | N/A |
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
-| 55 | **Flask** | **Personal Portfolio Website** |
+| 55 | N/A | N/A |
 | 56 | **Data Structure Algorithm** | **C++** |
-| 57 | **Java** | **Getting Started with Core Java** |
+| 57 | N/A | N/A |
 | 58 | **Data structure for python developer** | **Building Flask API to learn Data structure** |
 | 59 | **JavaScript** | **From zero to hero** |
 | 60 | N/A | N/A |
