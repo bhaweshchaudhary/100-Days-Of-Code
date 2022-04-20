@@ -85,9 +85,32 @@ List is a collection which is ordered and changeable. Allows duplicate members.
 Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 
 Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+*Set items are unchangeable, but you can remove and/or add items whenever you like.
+
 
 Dictionary is a collection which is ordered** and changeable. No duplicate members.
 
-'''
 
+thislist = ["mango", "pineapple"]
+thistuple = ("orange", "apple", "banana")
+
+thislist.extend(thistuple)
+print(thislist)
+
+
+LIST METHODS
+
+append() adds an element at the end of the list
+clear() removes all the element from the list
+copy() returns the copy of the list
+count() returns the number of elements with a specified value
+extend() adds the element of the list (or any iterable), to the end of the current list
+index() returns the index of the first element with the specified value
+insert() adds the element at the specified position
+pop() removes the element at the specified position
+remove() removes the item with the specified value
+reverse() reverse the order of the list
+sort() sorts the list
+
+'''
 
