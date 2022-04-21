@@ -155,5 +155,20 @@ symmetric_difference_update() insert the symmetric differences from this set and
 union() return a set containing the union of sets
 update() update the set with the union of this set and other
 
+
+DICTIONARY METHODS
+
+clear() removes all the elements from the dictionary
+copy() returns a copy of the dictionary
+fromkeys() returns a dictionary with a specified keys and values
+get() returns the value of the specified key
+items() returns a list containing a tuple for each key value pair
+keys() returns a list containing the dictionary key's 
+pop() removes the element with the specified key
+popitem() removes the last inserted key-value pair
+setdefault() returns the value of the specified key, if the key doesn't exit, then insert the key with the specified value
+update() updates the dictionary with the specified key value pair
+values() returns a list of all the values in the dictionary 
+
 '''
 
