@@ -112,5 +112,15 @@ remove() removes the item with the specified value
 reverse() reverse the order of the list
 sort() sorts the list
 
-'''
 
+
+UNPACKING TUPLE
+
+fruits = ("mango", "orange", "pineapple")
+(firstFruit, secondFruit, thirdFruit) = fruits
+print(firstFruit, secondFruit, thirdFruit)
+# Output -> mango orange pineapple
+
+
+
+'''
