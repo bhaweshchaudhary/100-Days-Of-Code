@@ -122,5 +122,38 @@ print(firstFruit, secondFruit, thirdFruit)
 # Output -> mango orange pineapple
 
 
+TUPLE METHOD
+
+count() returns the number of times a specified value occurs in a tuple
+index() searches the tuple for a specified value and returns the position of where it was found
+
+
+SET METHODS
+
+add() adds an element to the set
+clear() removes all the elemet from the set
+copy() returns the copy of the set
+difference() returns a set containing the difference between two or more sets
+ # example start
+euta = {"orange", "apple", "mango"}
+duita = {"suntala", "mango", "apple"}
+tesro = euta.difference(duita)
+print(tesro) // output -> orange
+# example ends
+
+difference_update() removes the items in this set that are not present in other, specified set(s)
+discard() removes the specified item
+intersection() returns a set that is the intersection of two other set
+intersection_update() returns the item in this set that are not present in other specified set(s)
+isdisjoint() return whether two sets have a intersection or not
+issubset() return whether another set contain this set or not
+issuperset() return whethter this set contain another set or not
+pop() removes an element from the from the set
+remove() removes the specified element
+symmetric_difference() returns a set with a symmetric difference of two set
+symmetric_difference_update() insert the symmetric differences from this set and another
+union() return a set containing the union of sets
+update() update the set with the union of this set and other
 
 '''
+
