@@ -37,7 +37,7 @@
 | 31 | Django Documentation | Poll App |
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
-| 34 | Python Note | w3Schools python |
+| 34 | Learning | DSA using cpp, js, py |
 | 35 | N/A | N/A |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
@@ -59,10 +59,10 @@
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
 | 55 | N/A | N/A |
-| 56 | **Data Structure Algorithm** | **C++** |
+| 56 | N/A | N/A |
 | 57 | N/A | N/A |
-| 58 | **Data structure for python developer** | **Building Flask API to learn Data structure** |
-| 59 | **JavaScript** | **From zero to hero** |
+| 58 | N/A | N/A |
+| 59 | N/A | N/A |
 | 60 | N/A | N/A |
 | 61 | N/A | N/A |
 | 62 | N/A | N/A |
