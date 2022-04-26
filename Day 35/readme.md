@@ -1,1 +1,0 @@
-# project is live in this repo -> https://github.com/callmebhawesh/shortmyurl
