@@ -38,7 +38,7 @@
 | 32 | Send Email (smtplib) and Manage Dates (datetime) | Automated Birthday Email Sender |
 | 33 | API Endpoints & API Parameters | ISS Overhead Notifier |
 | 34 | Learning | DSA using cpp, js, py |
-| 35 | DSA | DSA Java |
+| 35 | N/A | N/A |
 | 36 | Django | Word Counter |
 | 37 | Django | Adding backend functionality to a html template |
 | 38 | Django | Building a BLOG App |
