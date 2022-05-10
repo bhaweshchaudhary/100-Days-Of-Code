@@ -7,9 +7,27 @@ body {
     background-color: antiquewhite;
 }
 
+.brand img {
+    width: 51px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
 nav ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    background-color: white;
+    background-color: black;
+    color: white;
     height: 65px;
+}
+
+nav ul li {
+    padding: 0 12px;
 }
