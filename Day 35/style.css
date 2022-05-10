@@ -31,3 +31,26 @@ nav ul {
 nav ul li {
     padding: 0 12px;
 }
+
+.container {
+    min-height: 77.4vh;
+}
+
+.bottom {
+    position: sticky;
+    height: 99px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 75vw;;
+}
+
+.icons {
+    margin: 10px 0;
+}
