@@ -70,7 +70,7 @@ nav ul li {
 
 .songItem {
     height: 50px;
-    width: 37vh;
+    width: 42vh;
     display: flex;
     background-color: white;
     color: black;
@@ -104,5 +104,5 @@ nav ul li {
 .songInfo img {
     margin: 0 9px;
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transition: opacity 0.3s ease-in;
 }
