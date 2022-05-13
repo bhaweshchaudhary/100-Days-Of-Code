@@ -2,9 +2,10 @@
 
 let songIndex = 0;
 let audioElement = new Audio('songs/1.mp3');
-let masterPlay = document.getElementById('masterPlay')
+let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
+let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
@@ -14,8 +15,9 @@ let songs = [
     {songName: "To be loved", filepath: "songs/4.mp3", coverpath: "cover/4.jpeg"},
 ]
 
-songItems.forEach((element, i)=>{
+songItems.forEach(()=>{
     document.getElementsByName("img")[0].src = songs[i].coverpath;
+    document.getElementsByClassName("songName")[0].innerText = songs[i].songName;
 })
 
 // audioElement.play();
@@ -46,4 +48,10 @@ audioElement.addEventListener('timeupdate', () => {
 
 myProgressBar.addEventListener('change', ()=>{
     audioElement.currentTime = (myProgressBar.value * audioElement.duration)/100;
+})
+
+Array.from(document.getElementsByClassName("songItemPlay")).forEach(()=>{
+    element.addEventListener('click', (e)=>{
+        console.log(e);
+    })
 })
