@@ -49,7 +49,7 @@
 | 43 | Introduction to CSS | Getting Started |
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
-| 46 | N/A | N/A |
+| 46 | HTML CSS | Google clone |
 | 47 | N/A | N/A |
 | 48 | N/A | N/A |
 | 49 | Django | Added backend functionality to pcoint theme |
