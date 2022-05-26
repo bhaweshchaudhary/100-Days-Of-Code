@@ -50,7 +50,7 @@
 | 44 | Intermediate CSS | Creating Beautiful Personal Website |
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | HTML CSS | Google clone |
-| 47 | Flask | Authentication, Note keeping App, Database |
+| 47 | Javascript | Following 11 hour course by harshit vashisth |
 | 48 | N/A | N/A |
 | 49 | Django | Added backend functionality to pcoint theme |
 | 50 | N/A | N/A |
