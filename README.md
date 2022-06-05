@@ -51,7 +51,7 @@
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | HTML CSS | Google clone |
 | 47 | Javascript | Following 11 hour course by harshit vashisth |
-| 48 | N/A | N/A |
+| 48 | Python | Pygame |
 | 49 | Django | Added backend functionality to pcoint theme |
 | 50 | N/A | N/A |
 | 51 | N/A | N/A |
