@@ -6,15 +6,26 @@
 .google-logo {
     align-items: center;
     align-self: center;
-    border: solid;
     display: flex;
-    height: 99vh;
+    height: 30vh;
 }
 
 .google-logo img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: -20rem;
-    width: 18rem;
+    margin-top: 5.3rem;
+    width: 17rem;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    border-radius: 3rem;
+    border-style: solid;
+    border-color: #e1e4e7;
+    padding: 5px 8px 0 14px;
+}
