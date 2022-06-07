@@ -172,5 +172,12 @@ values() returns a list of all the values in the dictionary
 
 
 
+Common Problems
 
+1. Palindrome
+2. Fibonacci
+3. Odd/Even
+4. Sum of first N numbers
+5. 
 '''
+
