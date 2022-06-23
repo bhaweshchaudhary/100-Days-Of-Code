@@ -51,9 +51,9 @@
 | 45 | Getting started with Beautiful Soup | 100 Greatest movies of all time |
 | 46 | HTML CSS | Google clone |
 | 47 | Javascript | Following 11 hour course by harshit vashisth |
-| 48 | Python | Flask - A Blog System with Login & Logout Features |
+| 48 | N/A | N/A |
 | 49 | Django | Added backend functionality to pcoint theme |
-| 50 | N/A | N/A |
+| 50 | Django | A Blog System with Login & Logout Features |
 | 51 | N/A | N/A |
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
