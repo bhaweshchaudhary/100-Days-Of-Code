@@ -58,7 +58,7 @@
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
-| 55 | N/A | N/A |
+| 55 | Resume | Digital resume with django |
 | 56 | N/A | N/A |
 | 57 | N/A | N/A |
 | 58 | N/A | N/A |
