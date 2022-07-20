@@ -60,7 +60,7 @@
 | 54 | Flask | Todo App With Flask |
 | 55 | Resume | Digital resume with django |
 | 56 | Internship Question | By RPA Labs |
-| 57 | N/A | N/A |
+| 57 | Python | 12 Python Projects |
 | 58 | N/A | N/A |
 | 59 | N/A | N/A |
 | 60 | N/A | N/A |
