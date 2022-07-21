@@ -5,10 +5,11 @@ manual_input = int(input("Enter Number \n"))
 switch = True
 
 while(switch):
-    if manual_input < computer_number:
+    manual_input = int(input("Enter Number \n"))
+    if (computer_number < manual_input):
+        print("You guessed too high.")
+    if (computer_number > manual_input):
         print("You guessed too low")
-    elif manual_input > computer_number:
-        print("You guessed too high")
-    else:
+    if (computer_number == manual_input):
         print("You're correct")
     switch = False
