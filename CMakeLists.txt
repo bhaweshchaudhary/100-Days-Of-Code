@@ -1,0 +1,83 @@
+cmake_minimum_required(VERSION 3.22)
+project(100_Days_Of_Code)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(env/include)
+include_directories(env/include/site)
+include_directories(env/include/site/python3.9)
+include_directories(env/include/site/python3.9/greenlet)
+include_directories(env/lib/python3.9/site-packages/cffi)
+include_directories(env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval)
+include_directories(env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common)
+include_directories(env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows)
+include_directories(env/lib/python3.9/site-packages/greenlet)
+include_directories(env/lib/python3.9/site-packages/greenlet/platform)
+include_directories(env/lib/python3.9/site-packages/zmq)
+include_directories(env/lib/python3.9/site-packages/zmq/backend)
+include_directories(env/lib/python3.9/site-packages/zmq/backend/cffi)
+include_directories(env/lib/python3.9/site-packages/zmq/utils)
+
+add_executable(100_Days_Of_Code
+        "Day 34/main.cpp"
+        "Day 58/program01.cpp"
+        env/include/site/python3.9/greenlet/greenlet.h
+        env/lib/python3.9/site-packages/cffi/_cffi_errors.h
+        env/lib/python3.9/site-packages/cffi/_cffi_include.h
+        env/lib/python3.9/site-packages/cffi/_embedding.h
+        env/lib/python3.9/site-packages/cffi/parse_c_type.h
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_310.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_common.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_settrace.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_utils.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_version.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/python.h
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.cpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.h
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/inject_dll.cpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_in_memory.hpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/stdafx.cpp
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/stdafx.h
+        env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/targetver.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_aarch64_gcc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_alpha_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_amd64_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_arm32_gcc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_arm32_ios.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_csky_gcc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_m68k_gcc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_mips_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc64_aix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc64_linux.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_aix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_linux.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_macosx.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_riscv_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_s390_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_sparc_sun_gcc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_x32_unix.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_x64_msvc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_x86_msvc.h
+        env/lib/python3.9/site-packages/greenlet/platform/switch_x86_unix.h
+        env/lib/python3.9/site-packages/greenlet/tests/_test_extension.c
+        env/lib/python3.9/site-packages/greenlet/tests/_test_extension_cpp.cpp
+        env/lib/python3.9/site-packages/greenlet/greenlet.c
+        env/lib/python3.9/site-packages/greenlet/greenlet.h
+        env/lib/python3.9/site-packages/greenlet/slp_platformselect.h
+        env/lib/python3.9/site-packages/markupsafe/_speedups.c
+        env/lib/python3.9/site-packages/zmq/backend/cffi/_cdefs.h
+        env/lib/python3.9/site-packages/zmq/utils/getpid_compat.h
+        env/lib/python3.9/site-packages/zmq/utils/ipcmaxlen.h
+        env/lib/python3.9/site-packages/zmq/utils/mutex.h
+        env/lib/python3.9/site-packages/zmq/utils/pyversion_compat.h
+        env/lib/python3.9/site-packages/zmq/utils/zmq_compat.h
+        env/lib/python3.9/site-packages/zmq/utils/zmq_constants.h)

@@ -1,0 +1,713 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "100_Days_Of_Code"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site/python3.9"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site/python3.9/greenlet"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/cffi"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/greenlet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/greenlet/platform"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/backend"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/backend/cffi"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/utils"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				18,
+				19,
+				21,
+				24,
+				25,
+				50
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site/python3.9"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/include/site/python3.9/greenlet"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/cffi"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/greenlet"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/greenlet/platform"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/backend"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/backend/cffi"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/bhawesh/Documents/Projects & Coding/100-Days-Of-Code/env/lib/python3.9/site-packages/zmq/utils"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				7,
+				8,
+				49,
+				51,
+				54
+			]
+		}
+	],
+	"id" : "100_Days_Of_Code::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "100_Days_Of_Code",
+	"nameOnDisk" : "100_Days_Of_Code",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				7,
+				8,
+				18,
+				19,
+				21,
+				24,
+				25,
+				49,
+				50,
+				51,
+				54
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				20,
+				22,
+				23,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				52,
+				53,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Day 34/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Day 58/program01.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/include/site/python3.9/greenlet/greenlet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/cffi/_cffi_errors.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/cffi/_cffi_include.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/cffi/_embedding.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/cffi/parse_c_type.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_cython.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/pydevd_frame_evaluator.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/release_mem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_310.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_custom_pyeval_settrace_common.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_settrace.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/py_version.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/python.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common/ref_utils.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/attach.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/attach.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/inject_dll.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/py_win_helpers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_in_memory.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/run_code_on_dllmain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/stdafx.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/stdafx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/windows/targetver.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_aarch64_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_alpha_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_amd64_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_arm32_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_arm32_ios.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_csky_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_m68k_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_mips_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc64_aix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc64_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_aix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_linux.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_macosx.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_ppc_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_riscv_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_s390_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_sparc_sun_gcc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_x32_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_x64_msvc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_x86_msvc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/platform/switch_x86_unix.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/tests/_test_extension.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "env/lib/python3.9/site-packages/greenlet/tests/_test_extension_cpp.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/greenlet.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/greenlet.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/greenlet/slp_platformselect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "env/lib/python3.9/site-packages/markupsafe/_speedups.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/backend/cffi/_cdefs.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/getpid_compat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/ipcmaxlen.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/mutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/pyversion_compat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/zmq_compat.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "env/lib/python3.9/site-packages/zmq/utils/zmq_constants.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}
