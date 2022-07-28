@@ -7,7 +7,7 @@ void helloworld() {
 
 // data types
 void dataTypes() {
-    
+    string name = get_string("what's your name?\n")
 }
 
 // main function
