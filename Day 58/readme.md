@@ -1,1 +1,1 @@
-This folder is completely dedicated to learning the basics of c++ language.
+This folder is completely dedicated to learning the data structure and algorithm.
