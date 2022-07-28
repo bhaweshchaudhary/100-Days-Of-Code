@@ -61,8 +61,8 @@
 | 55 | Resume | Digital resume with django |
 | 56 | Internship Question | By RPA Labs |
 | 57 | Python | 12 Python Projects |
-| 58 | C++ | Learning |
-| 59 | N/A | N/A |
+| 58 | DSA | Learning |
+| 59 | Python | Rock, paper, scissor |
 | 60 | N/A | N/A |
 | 61 | N/A | N/A |
 | 62 | N/A | N/A |
