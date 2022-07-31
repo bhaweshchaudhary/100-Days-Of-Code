@@ -54,7 +54,7 @@
 | 48 | N/A | N/A |
 | 49 | Django | Added backend functionality to pcoint theme |
 | 50 | Django | A Blog System with Login & Logout Features |
-| 51 | N/A | N/A |
+| 51 | Django | Login System |
 | 52 | Javascript | Calculator |
 | 53 | Frontend | Godaddy Sigin Clone |
 | 54 | Flask | Todo App With Flask |
