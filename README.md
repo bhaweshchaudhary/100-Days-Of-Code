@@ -63,8 +63,8 @@
 | 57 | **Python** | 12 Python Projects |
 | 58 | **DSA** | Learning |
 | 59 | Python | Rock, paper, scissor |
-| 60 | N/A | N/A |
-| 61 | N/A | N/A |
+| 60 | **Flask** | Learning |
+| 61 | **flask** | Authentication |
 | 62 | N/A | N/A |
 | 63 | N/A | N/A |
 | 64 | N/A | N/A |
