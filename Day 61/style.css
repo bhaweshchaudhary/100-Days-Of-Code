@@ -6,7 +6,7 @@
 .top-header {
     /* border: 2px solid rebeccapurple; */
     height: 40px;
-    display: flex inline;
+    display: flex;
     align-items: center;
     position: relative;
     width: 98%;
@@ -56,25 +56,21 @@ hr {
     border: 0.5px solid rgb(213 225 239);
 }
 
-
-select {
+.menu-select {
     display: none;
 }
 
-/* 
-screen 834 by 196
-*/
-
-@media (max-width: 835px) {
-    .top-header p {
-        display: none;
-    }
-
-    .top-header .nav1 li {
-        display: none;
-    }
-
-    select {
-        display: inline;
-    }
+@media only screen and (max-width: 830px) {
+    .top-header img {
+            display: block;
+        }
+    
+        .top-header p {
+            display: block;
+        }
+    
+        .top-header .nav1 li {
+            display: none;
+        }
+    
 }
