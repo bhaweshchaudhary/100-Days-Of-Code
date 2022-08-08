@@ -60,17 +60,120 @@ hr {
     display: none;
 }
 
+.hamburger {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    border: none;
+    position: relative;
+    /* border: 1px solid black; */
+    height: 3rem;
+    margin-left: 5px;
+}
+
+.ham {
+    position: absolute;
+    right: 0;
+    margin: auto;
+    height: 24px;
+    cursor: pointer;
+}
+
+.cross {
+    position: absolute;
+    right: 0;
+    margin: auto;
+    height: 24px;
+    display: none;
+    cursor: pointer;
+}
+
+.flag {
+    position: absolute;
+    left: 0;
+    height: 30px;
+}
+
+.mobile-top-menu-list {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-top-menu-list ul {
+    list-style-type: none;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-top-menu-list li {
+    /* display: block; */
+    text-align: center;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mobile-top-menu-list li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    /* margin: 16px 0; */
+    color: black;
+    /* border: 1px solid black; */
+    
+}
+
+#mobile-menu {
+    display: none;
+}
+
+.mobile-top-menu-list li a:hover {
+    background-color: brown;
+    color: white;
+}
+
+
 @media only screen and (max-width: 830px) {
     .top-header img {
-            display: block;
-        }
-    
-        .top-header p {
-            display: block;
-        }
-    
-        .top-header .nav1 li {
-            display: none;
-        }
-    
+        display: block;
+    }
+
+    .top-header p {
+        display: block;
+    }
+
+    .top-header .nav1 li {
+        display: none;
+    }
+
+    .mobile-top-menu {
+        display: block;
+    }
+
+    .mobile-top-menu-list li {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 831px) {
+    .mobile-top-menu {
+        display: none;
+    }
+
+    .mobile-top-menu-list li {
+        display: none;
+    }
+
+    .ham {
+        display: none;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    .flag {
+        display: none;
+    }
 }
