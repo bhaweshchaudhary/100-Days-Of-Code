@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.top {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 40px;
+    border: 2px solid black;
+}
+
+.top-child-1, .top-child-2, .top-child-3, .top-child-4 {
+    padding: 10px;    
+}

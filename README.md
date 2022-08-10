@@ -64,7 +64,7 @@
 | 58 | **DSA** | Learning |
 | 59 | Python | Rock, paper, scissor |
 | 60 | **Flask** | Learning |
-| 61 | **flask** | Authentication |
+| 61 | Responsive Menu | HTML CSS |
 | 62 | N/A | N/A |
 | 63 | N/A | N/A |
 | 64 | N/A | N/A |
