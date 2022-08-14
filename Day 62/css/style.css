@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    background-color: rgb(54 54 58);
+    color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -13,4 +18,54 @@
 
 .top-child-1, .top-child-2, .top-child-3, .top-child-4 {
     padding: 10px;    
+}
+
+.circle {
+    height: 0.23rem;
+    width: 0.23rem;
+    background-color: white;
+    border-radius: 100%;
+    margin: 1.7px 1.7px;
+}
+
+.circle-child, .circle-child-1, .circle-child-2 {
+    display: flex;
+}
+
+.top-child-4 img {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+
+.main {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+
+.title {
+    font-size: 300%;
+}
+
+
+.main-2 {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.search-box input{
+    padding: 8px;
+    width: 40rem;
+    border: none;
+    background-color: white;
 }
