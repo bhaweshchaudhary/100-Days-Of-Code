@@ -67,7 +67,7 @@
 | 61 | Responsive Menu | HTML CSS |
 | 62 | Google Chrome Browser Home page Clone | HTML, CSS, JS |
 | 63 | Express js documentation tutorial | Expressjs, Nodejs |
-| 64 | N/A | N/A |
+| 64 | Modern Landing Page | Tailwindcss |
 | 65 | N/A | N/A |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
