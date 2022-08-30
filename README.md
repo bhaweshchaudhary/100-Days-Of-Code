@@ -68,7 +68,7 @@
 | 62 | Google Chrome Browser Home page Clone | HTML, CSS, JS |
 | 63 | Express js documentation tutorial | Expressjs, Nodejs |
 | 64 | Modern Landing Page | Tailwindcss |
-| 65 | N/A | N/A |
+| 65 | Login system | Django |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
 | 68 | N/A | N/A |
