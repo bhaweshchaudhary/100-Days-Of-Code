@@ -5,25 +5,25 @@
 | Days | Topics Covered | Projects Done | Remark |
 | --- | --- | -- | --- |
 | 1 | Printing , Commenting, Debugging, String Manipulation and Variables | Band Name Generator | ✅ |
-| 2 | Data types, Numbers, Operations, Type conversion, f-Strings | Tip Calculator |
-| 3 | Conditional Statements, Logical Operators, Code Blocks, & Scope | Console Based Tresure Island Game |
-| 4 | Randomization and Python List | Rock, Paper, Scissor Game |
-| 5 | For Loops, Range, and Code Blocks | Password Generator |
-| 6 | Function, Code Blocks, and While Loops | Escaping the maze |
-| 7 | *Projects Day* | Hangman |
-| 8 | Function with input, Arguments and Parameters | Ceaser Cipher |
-| 9 | Dictionaries and Nesting | Blind Auction |
-| 10 | Functions with outputs | Calculators |
-| 11 | *Projects Day* | Blackjack capstone |
-| 12 | Scopes | Scope and Number Guessing Game |
-| 13 | Debugging | Debugging |
-| 14 | *Projects Day* | Higher Lower Game Project |
-| 15 | Setup Local Development Environment | Coffee Machine Project (Procedural programming) |
-| 16 | Object Oriented Programming | Coffee Machine Project using OOP |
-| 17 | Creating Classes | QUIZ GAME |
-| 18 | Turtle & The Graphical User Interface (GUI) | Damien Hirst |
-| 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game |
-| 20 | *Projects Day* | Starting Snake Game - part 1|
+| 2 | Data types, Numbers, Operations, Type conversion, f-Strings | Tip Calculator | ✅ |
+| 3 | Conditional Statements, Logical Operators, Code Blocks, & Scope | Console Based Tresure Island Game | ✅ |
+| 4 | Randomization and Python List | Rock, Paper, Scissor Game | ✅ |
+| 5 | For Loops, Range, and Code Blocks | Password Generator | ✅ |
+| 6 | Function, Code Blocks, and While Loops | Escaping the maze | ✅ |
+| 7 | *Projects Day* | Hangman | ✅ |
+| 8 | Function with input, Arguments and Parameters | Ceaser Cipher | ✅ |
+| 9 | Dictionaries and Nesting | Blind Auction | ✅ |
+| 10 | Functions with outputs | Calculators | ✅ |
+| 11 | *Projects Day* | Blackjack capstone | ✅ |
+| 12 | Scopes | Scope and Number Guessing Game | ✅ |
+| 13 | Debugging | Debugging | ✅ |
+| 14 | *Projects Day* | Higher Lower Game Project | ✅ |
+| 15 | Setup Local Development Environment | Coffee Machine Project (Procedural programming) | ✅ |
+| 16 | Object Oriented Programming | Coffee Machine Project using OOP | ✅ |
+| 17 | Creating Classes | QUIZ GAME | ✅ |
+| 18 | Turtle & The Graphical User Interface (GUI) | Damien Hirst | ✅ |
+| 19 | More Turtle Graphics, Event Listeners, State and Multiple Instances | Etch a Sketch & Turtle Racing Game | ✅ |
+| 20 | *Projects Day* | Starting Snake Game - part 1| ✅ |
 | 21 | Inheritance, Slicing | Finishing Snake Game - part 2|
 | 22 | *Projects Day* | The Pong Game |
 | 23 | *Projects Day* | Turtle Crossing Capstone Game |
