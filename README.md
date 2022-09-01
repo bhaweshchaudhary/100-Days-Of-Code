@@ -2,9 +2,9 @@
 
 <img src="https://i.ibb.co/2vtsXbz/100-days-of-code.jpg" alt="100-days-of-code" border="0">
 
-| Days | Topics Covered | Projects Done |
-| --- | --- | -- |
-| 1 | Printing , Commenting, Debugging, String Manipulation and Variables | Band Name Generator |
+| Days | Topics Covered | Projects Done | Remark |
+| --- | --- | -- | --- |
+| 1 | Printing , Commenting, Debugging, String Manipulation and Variables | Band Name Generator | ✅ |
 | 2 | Data types, Numbers, Operations, Type conversion, f-Strings | Tip Calculator |
 | 3 | Conditional Statements, Logical Operators, Code Blocks, & Scope | Console Based Tresure Island Game |
 | 4 | Randomization and Python List | Rock, Paper, Scissor Game |
@@ -66,9 +66,9 @@
 | 60 | **Flask** | Learning |
 | 61 | Responsive Menu | HTML CSS |
 | 62 | Google Chrome Browser Home page Clone | HTML, CSS, JS |
-| 63 | Express js documentation tutorial | Expressjs, Nodejs |
-| 64 | Modern Landing Page | Tailwindcss |
-| 65 | Login system | Django |
+| 63 | N/A | N/A |
+| 64 | N/A | N/A |
+| 65 | N/A | N/A |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
 | 68 | N/A | N/A |
@@ -105,80 +105,3 @@
 | 99 | N/A | N/A |
 | 100 | N/A | N/A |
 
-
-# Python Quiz from W3Schools
-
-## Q1. What is a correct syntax to output "Hello World" in Python?
-Ans. print("Hello World")
-
-## Q2. How do you insert COMMENTS in Python code?
-Ans. #This is a comment
-
-## Q3. Which one is NOT a legal variable name?
-Ans. my-var
-
-## Q4. How do you create a variable with the numeric value 5?
-Ans. x = 5  and x = int(5)  -> Both the other answers are correct
-
-## Q5. What is the correct file extension for Python files?
-Ans. .py  
-
-## Q6.  How do you create a variable with the floating number 2.8?
-Ans. x = 2.8  and x = float(2.8) -> Both the other answers are correct
-
-## Q7. What is the correct syntax to output the type of a variable or object in Python?
-Ans. print(type(x))  
-
-## Q8. What is the correct way to create a function in Python?
-Ans. def myFunction():  
-
-## Q9. In Python, 'Hello', is the same as "Hello"
-Ans. True  
-
-## Q10. What is a correct syntax to return the first character in a string?
-Ans. x = "Hello"[0]
-
-## Q11. Which method can be used to remove any whitespace from both the beginning and the end of a string?
-Ans. strip()
-
-## Q12. Which method can be used to return a string in upper case letters?
-Ans. upper()  
-
-## Q13. Which method can be used to replace parts of a string?
-Ans. replace()  
-
-## Q14. Which operator is used to multiply numbers?
-Ans. *
-
-## Q15. Which operator can be used to compare two values?
-Ans. ==
-
-## Q16. Which of these collections defines a LIST?
-Ans. ["apple", "banana", "cherry"]  
-
-## Q17. Which of these collections defines a TUPLE?
-Ans. ("apple", "banana", "cherry")
-
-## Q18. Which of these collections defines a SET?
-Ans. {"apple", "banana", "cherry"}
-
-## Q19. Which of these collections defines a DICTIONARY?
-Ans. {"name": "apple", "color": "green"}
-
-## Q20. Which collection is ordered, changeable, and allows duplicate members?
-Ans. LIST
-
-## Q21. Which collection does not allow duplicate members?
-Ans. SET
-
-## Q22. How do you start writing an if statement in Python?
-Ans. if x > y:
-
-## Q23. How do you start writing a while loop in Python?
-Ans. while x > y:
-
-## Q24. How do you start writing a for loop in Python?
-Ans. for x in y:
-
-## Q25. Which statement is used to stop a loop?
-Ans. break
