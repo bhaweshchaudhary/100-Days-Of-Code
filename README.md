@@ -66,7 +66,7 @@
 | 60 | **Flask** | Learning |
 | 61 | Responsive Menu | HTML CSS |
 | 62 | Google Chrome Browser Home page Clone | HTML, CSS, JS |
-| 63 | N/A | N/A |
+| 63 | Digital Clock | Html, Css, Js |
 | 64 | N/A | N/A |
 | 65 | N/A | N/A |
 | 66 | N/A | N/A |
