@@ -89,7 +89,7 @@ hr {
     cursor: pointer;
 }
 
-.flag {
+.flag, .mobile-logo {
     position: absolute;
     left: 0;
     height: 30px;
