@@ -9,3 +9,6 @@ import socket
 # s.bind() -> bind address (hostname, port number pair) to socket.
 # s.listen() -> sets up and start TCP listener.
 # s.accept() => this passively accept TCP client connection, wait until connection arrives (blocking).
+
+# client socket method 
+# s.connect() => this method actively initiates TCP Server  connection. 
