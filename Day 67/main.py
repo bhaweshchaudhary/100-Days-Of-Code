@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import socket
 
 # s = socket.socket(socket_family, socket_type, protocol=0)
@@ -6,6 +8,6 @@ import socket
 # PROTOCOL default is 0
 
 # server socket method
+
 # s.bind() -> bind address (hostname, port number pair) to socket.
 # s.listen() -> sets up and start TCP listener.
-# s.accept() => this passively accept TCP client connection, wait until connection arrives (blocking).
