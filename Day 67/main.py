@@ -13,7 +13,6 @@ import socket
 # s.listen() -> sets up and start TCP listener.
 # s.accept() => this passively accept TCP client connection, wait until connection arrives (blocking).
 
-<<<<<<< HEAD
 # general socket method
 
 # s.recv() => this method receives TCP message 
@@ -41,7 +40,3 @@ while True:
     print('got connection from', addr)
     c.send('thank you for connecting')
     c.close() # close the connection
-=======
-# client socket method 
-# s.connect() => this method actively initiates TCP Server  connection. 
->>>>>>> e204af7a6b13430c48e5790ef57187e363682cf3
