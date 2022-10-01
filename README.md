@@ -70,7 +70,7 @@
 | 64 | Reactjs | Todos List |
 | 65 | MERN | AngYu WDC |
 | 66 | clone | some website clone |
-| 67 | N/A | N/A |
+| 67 | Port Scanner | Python |
 | 68 | N/A | N/A |
 | 69 | N/A | N/A |
 | 70 | N/A | N/A |
