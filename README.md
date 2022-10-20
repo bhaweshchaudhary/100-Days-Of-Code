@@ -70,7 +70,7 @@
 | 64 | Reactjs | Todos List |
 | 65 | MERN | AngYu WDC |
 | 66 | CSS | CSS Positioning |
-| 67 | N/A | N/A |
+| 67 | Flask | A website |
 | 68 | N/A | N/A |
 | 69 | N/A | N/A |
 | 70 | N/A | N/A |
