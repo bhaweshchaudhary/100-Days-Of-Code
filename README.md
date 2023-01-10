@@ -67,7 +67,12 @@
 | 61 | Responsive Menu | HTML CSS |
 | 62 | Google Chrome Browser Home page Clone | HTML, CSS, JS |
 | 63 | Digital Clock | Html, Css, Js |
-| 64 | React Learning | React js |
+
+<!-- New Journey -->
+
+| Days | Topics Covered | Projects Done | Remark |
+| --- | --- | -- | --- |
+| 64 | N/A | N/A |
 | 65 | N/A | N/A |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
