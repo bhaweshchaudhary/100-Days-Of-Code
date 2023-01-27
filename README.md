@@ -72,7 +72,7 @@
 
 | Days | Topics Covered | Projects Done | Remark |
 | --- | --- | -- | --- |
-| 64 | HTML, CSS |  |
+| 64 | Todo List | Javascript |
 | 65 | N/A | N/A |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
