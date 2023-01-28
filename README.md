@@ -73,7 +73,7 @@
 | Days | Topics Covered | Projects Done | Remark |
 | --- | --- | -- | --- |
 | 64 | Todo List | Javascript | ✅ |
-| 65 | N/A | N/A |
+| 65 | Popup Message | Javascript | ✅ |
 | 66 | N/A | N/A |
 | 67 | N/A | N/A |
 | 68 | N/A | N/A |
