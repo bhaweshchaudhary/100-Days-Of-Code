@@ -74,9 +74,9 @@
 | --- | --- | -- | --- |
 | 64 | Todo List | Javascript | ✅ |
 | 65 | Popup Message | Javascript | ✅ |
-| 66 | N/A | N/A |
-| 67 | N/A | N/A |
-| 68 | N/A | N/A |
+| 66 | js | dynamic text |
+| 67 | nodejs | connecting backend with mongodb |
+| 68 | nodejs | creating own server and status code |
 | 69 | N/A | N/A |
 | 70 | N/A | N/A |
 | 71 | N/A | N/A |
