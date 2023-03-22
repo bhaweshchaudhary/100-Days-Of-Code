@@ -77,7 +77,7 @@
 | 66 | js | dynamic text |
 | 67 | nodejs | connecting backend with mongodb |
 | 68 | nodejs | creating own server and status code |
-| 69 | N/A | N/A |
+| 69 | Portfolio | html css |
 | 70 | N/A | N/A |
 | 71 | N/A | N/A |
 | 72 | N/A | N/A |
