@@ -79,7 +79,7 @@
 | 68 | nodejs | creating own server and status code |
 | 69 | Portfolio | html css |
 | 70 | N/A | N/A |
-| 71 | N/A | N/A |
+| 71 | Java | Java |
 | 72 | N/A | N/A |
 | 73 | N/A | N/A |
 | 74 | N/A | N/A |
