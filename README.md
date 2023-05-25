@@ -80,8 +80,8 @@
 | 69 | Portfolio | html css |
 | 70 | N/A | N/A |
 | 71 | Candy Color Button Animation | codepen clone |
-| 72 | N/A | N/A |
-| 73 | N/A | N/A |
+| 72 | Java | Java |
+| 73 | portfolio | tailwindcss |
 | 74 | N/A | N/A |
 | 75 | N/A | N/A |
 | 76 | N/A | N/A |
