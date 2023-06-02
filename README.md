@@ -82,8 +82,8 @@
 | 71 | Candy Color Button Animation | codepen clone |
 | 72 | Java | Java |
 | 73 | portfolio | tailwindcss |
-| 74 | N/A | N/A |
-| 75 | N/A | N/A |
+| 74 | Html Layout | Practice |
+| 75 | Js | zero to hero - udemy |
 | 76 | N/A | N/A |
 | 77 | N/A | N/A |
 | 78 | N/A | N/A |

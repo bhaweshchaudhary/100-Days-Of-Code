@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+nav {
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+nav > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav > ul > li {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+
+.article {
+    float: left;
+    width: 85%;
+    color: white;
+    background-color: brown;
+    height: 100%;
+}
+
+.article > div > article > p {
+    margin-left: 20px;
+}
+
+.article > div > article > ul > li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
